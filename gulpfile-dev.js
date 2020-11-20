@@ -1,4 +1,5 @@
-// console.log('构建开发环境的包')
+// console.log('构建开发环境的包')  //必须在根目录下建
+//开发环境不需要合并和压缩,浪费时间
 let {task,src,dest,watch,series,parallel} = require('gulp')
 let load = require('gulp-load-plugins')()
 let del = require('del')
@@ -12,13 +13,13 @@ task('delDist', async ()=>{
 task('img', async ()=>{
   src('./img/*.*')
   .pipe(dest('./dist/img'))
-  .pipe(load.connect.reload())
+  .pipe(load.connect.reload())  //执行刷新
 })
 
 // 处理JS
 task('script', async ()=>{
   src('./js/*.js')
-  .pipe(load.babel({ presets: ['@babel/env']}))
+  .pipe(load.babel({ presets: ['@babel/env']}))  //ES6转ES5
   .pipe(dest('./dist/js'))
   .pipe(load.connect.reload())
 })
@@ -50,8 +51,8 @@ task('watch', async ()=>{
 task('connect', async ()=>{
   load.connect.server({
     root: './dist',
-    livereload: true,
-    port: 3000
+    livereload: true,//开启自动刷新
+    port: 3000//启动端口3000
   })
 })
 

@@ -1,9 +1,9 @@
-// console.log('构建生成环境的包')
+console.log('构建生成环境的包')  //必须在根目录下
 let {task,src,dest,watch,series,parallel} = require('gulp')
-let load = require('gulp-load-plugins')()
-let del = require('del')
+let load = require('gulp-load-plugins')()//这个模块是一个方法,这个方法再执行,执行完之后得到一个load对象 gulp的所有插件都依赖这个对象得到了
+let del = require('del')//不是gulp插件,是node的第三方模块
 
-// 删除dist目录
+// 删除dist目录   开发环境可以不用生成 
 async function delDist(){
   await del('./dist')
 }
