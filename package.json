@@ -1,7 +1,7 @@
 {
   "name": "day34",
   "version": "1.0.0",
-  "description": "",
+  "description": "项目说明文档",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
