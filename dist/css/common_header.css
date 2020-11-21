@@ -1,0 +1,32 @@
+#header {
+  width: 100%;
+  height: 100%;
+  margin: auto; }
+
+.top {
+  position: relative;
+  height: 36px;
+  line-height: 36px;
+  background-color: #333;
+  z-index: 5; }
+  .top .nav {
+    width: 1090px;
+    margin: 0 auto;
+    position: relative; }
+    .top .nav .notice {
+      color: #CC9756;
+      font-size: 12px;
+      text-decoration: underline; }
+    .top .nav .top_login {
+      display: inline;
+      font-size: 12px;
+      line-height: 36px;
+      height: 36px;
+      color: #ccc;
+      cursor: pointer;
+      margin-left: 10px;
+      position: relative; }
+    .top .nav a {
+      display: inline-block;
+      color: #ccc;
+      margin-left: 10px; }
