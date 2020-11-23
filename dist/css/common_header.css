@@ -360,7 +360,8 @@
       font-size: 14px;
       font-weight: bold; }
       .box01 .li_nav a li {
-        padding-bottom: 5px; }
+        padding-bottom: 5px;
+        border-bottom: 3px solid #fff; }
       .box01 .li_nav a:hover li {
         color: #cc9756;
         border-bottom: 3px solid #cc9756; }
