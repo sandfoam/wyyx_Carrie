@@ -12,7 +12,8 @@
   overflow: hidden;
   margin: auto;
   margin-top: 30px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  height: 420px; }
   .wy_new h2 {
     display: inline-block;
     font-size: 28px;
@@ -26,9 +27,43 @@
     margin-left: 770px;
     cursor: pointer;
     color: #333; }
+  .wy_new .left {
+    position: absolute;
+    top: 810px;
+    left: 100px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    opacity: 0.7;
+    background-color: #E2C199;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff; }
+    .wy_new .left:hover {
+      opacity: 1; }
+  .wy_new .right {
+    position: absolute;
+    top: 810px;
+    right: 90px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    opacity: 0.7;
+    background-color: #E2C199;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff; }
+    .wy_new .right:hover {
+      opacity: 1; }
   .wy_new .new_g {
     width: 1100px;
-    margin-top: 20px; }
+    margin-top: 20px;
+    position: relative;
+    height: 381px; }
     .wy_new .new_g .good {
       float: left;
       width: 265px;
@@ -37,11 +72,19 @@
       .wy_new .new_g .good:hover {
         box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
         background-color: #f4f0ea; }
+        .wy_new .new_g .good:hover .img_none {
+          position: relative;
+          display: block; }
+        .wy_new .new_g .good:hover img {
+          display: none; }
       .wy_new .new_g .good div {
         background-color: #eee; }
         .wy_new .new_g .good div img {
           width: 265px;
           cursor: pointer; }
+        .wy_new .new_g .good div .img_none {
+          position: relative;
+          display: none; }
       .wy_new .new_g .good p {
         text-align: center;
         color: #333;
@@ -60,6 +103,8 @@
           color: #ccc;
           margin-left: 5px;
           text-decoration: line-through; }
+  .wy_new .show {
+    z-index: 100px; }
 
 .wy_hot {
   width: 108px;
@@ -211,7 +256,7 @@
               z-index: 2;
               float: left;
               cursor: pointer;
-              border-bottom: 2px solid #B4A078; }
+              border-bottom: 2px solid #f4f0ea; }
               .m-indexPopularItem .g-row .m-commonHeader .f-left .tabList .innerWrap ul .item:hover {
                 color: #B4A078; }
               .m-indexPopularItem .g-row .m-commonHeader .f-left .tabList .innerWrap ul .item a {
@@ -219,6 +264,9 @@
                 color: #333; }
                 .m-indexPopularItem .g-row .m-commonHeader .f-left .tabList .innerWrap ul .item a:hover {
                   color: #B4A078; }
+            .m-indexPopularItem .g-row .m-commonHeader .f-left .tabList .innerWrap ul .active {
+              border-bottom: 2px solid #B4A078;
+              z-index: 99; }
       .m-indexPopularItem .g-row .m-commonHeader .f-right {
         float: right; }
         .m-indexPopularItem .g-row .m-commonHeader .f-right .moreItems {
@@ -233,7 +281,8 @@
     .m-indexPopularItem .g-row .showContainer {
       width: 1090px;
       margin: auto;
-      margin-top: 20px; }
+      margin-top: 20px;
+      display: none; }
       .m-indexPopularItem .g-row .showContainer ul {
         overflow: hidden; }
         .m-indexPopularItem .g-row .showContainer ul li {
@@ -248,16 +297,16 @@
             transition: all 1.5s; }
           .m-indexPopularItem .g-row .showContainer ul li .up {
             width: 222px;
-            height: 180px;
-            border-bottom: 1px solid #ccc; }
+            height: 180px; }
             .m-indexPopularItem .g-row .showContainer ul li .up a {
               display: inline-block;
-              width: 140px;
+              width: 180px;
               height: 180px;
-              margin: 0 20px; }
+              padding: 0 17px;
+              border-bottom: 1px solid #ccc; }
               .m-indexPopularItem .g-row .showContainer ul li .up a .img {
-                width: 100%;
-                height: 100%; }
+                width: 180px;
+                height: 180px; }
           .m-indexPopularItem .g-row .showContainer ul li .bottom {
             width: 223px;
             height: 93px;
@@ -302,7 +351,8 @@
               display: inline-block;
               width: 230px;
               height: 320px;
-              margin: 0 10px; }
+              margin: 0 10px;
+              border-bottom: none; }
               .m-indexPopularItem .g-row .showContainer ul .first .up a .img {
                 width: 100%;
                 height: 100%;
@@ -338,6 +388,8 @@
               .m-indexPopularItem .g-row .showContainer ul .first .bottom .price span {
                 color: #888;
                 text-decoration: line-through; }
+    .m-indexPopularItem .g-row .show {
+      display: block; }
 
 .g_grow {
   padding-top: 60px;
@@ -395,11 +447,11 @@
         color: #615548;
         line-height: 22px;
         height: 22px; }
-    .g_grow .bd .m-countDown {
+    .g_grow .bd .countDown {
       height: 40px;
       margin-bottom: 50px;
       text-align: center; }
-      .g_grow .bd .m-countDown .j-hour {
+      .g_grow .bd .countDown .j_hours {
         display: inline-block;
         width: 40px;
         color: #fff;
@@ -407,17 +459,17 @@
         line-height: 40px;
         background-color: #615548;
         border-radius: 2px; }
-      .g_grow .bd .m-countDown .colon {
+      .g_grow .bd .countDown .colon {
         font-weight: 700;
         padding: 0 2px; }
-      .g_grow .bd .m-countDown .j-minute {
+      .g_grow .bd .countDown .j_minutes {
         display: inline-block;
         width: 40px;
         color: #fff;
         font-size: 18px;
         line-height: 40px;
         background-color: #615548; }
-      .g_grow .bd .m-countDown .j-second {
+      .g_grow .bd .countDown .j_seconds {
         display: inline-block;
         width: 40px;
         color: #fff;
@@ -535,3 +587,69 @@
   .flashSaleRt .tobuyBtn {
     background-color: #be4141;
     color: #fff; }
+
+.talk_box {
+  background-color: #F4F0EA;
+  margin-top: 70px;
+  height: 800px; }
+  .talk_box .talk {
+    width: 1090px;
+    margin: auto; }
+    .talk_box .talk .talk_t {
+      font-size: 28px;
+      font-weight: 700px;
+      float: left;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      margin-top: 50px; }
+    .talk_box .talk span {
+      font-size: 14px;
+      padding-left: 13px;
+      display: inline-block;
+      height: 50px;
+      line-height: 50px;
+      margin-top: 50px;
+      color: #333;
+      z-index: 10; }
+    .talk_box .talk div ul {
+      overflow: hidden;
+      margin-top: 20px; }
+      .talk_box .talk div ul li {
+        width: 345px;
+        height: 480px;
+        position: relative;
+        background-color: #fff; }
+        .talk_box .talk div ul li a {
+          display: block;
+          width: 345px;
+          height: 345px; }
+          .talk_box .talk div ul li a img {
+            width: 100%;
+            height: 100%; }
+        .talk_box .talk div ul li .comment {
+          position: absolute;
+          left: 5px;
+          top: 305px;
+          background-color: #fff;
+          padding: 0px 15px;
+          overflow: hidden;
+          width: 306px; }
+          .talk_box .talk div ul li .comment span {
+            color: #888;
+            font-size: 14px;
+            margin-top: 15px;
+            height: 10px; }
+          .talk_box .talk div ul li .comment .des {
+            font-size: 16px;
+            font-weight: 700;
+            margin: 0px; }
+            .talk_box .talk div ul li .comment .des .price {
+              display: inline-block;
+              color: #B4A078;
+              font-weight: normal;
+              padding-left: 30px; }
+          .talk_box .talk div ul li .comment .text {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #888;
+            line-height: 20px; }

@@ -1,99 +1,4 @@
-// 变量 $+变量名
-// $w:400px;
-// $h:200px;
-// $c:red;
-// $len:50%*10; // 500%
-// /* 标题样式 */
-// h1{
-//   width: $w;
-//   height: $h;
-//   color: $c;
-//   background-color: #ccc;
-// }
 
-// sass中的注释有两种
-// 1. // sass有的注释，不会被编译到css文件中
-// /* xxx */ 会被编译到css文件中
-
-// 嵌套语法
-// .box{
-//   width: $w;
-//   background-color: lightblue;
-//   h2{
-//     font-size: 30px;
-//     color: blue;
-//   }
-//   .show{
-//     width: 300px;
-//     height: 100px;
-//     span{
-//       color: red;
-//     }
-//     p{
-//       color: yellow;
-//     }
-//   }
-// }
-
-// & 指向父选择器
-// a{
-//   color: blue;
-//   &:hover{
-//     color: red;
-//   }
-// }
-// .content{
-//   width: 500px;
-//   &-title{
-//     color: red;
-//   }
-//   &-main{
-//     color: blue;
-//   }
-// }
-
-// // @import 引入外部样式
-// @import 'header.scss';
-
-// // @mixin 混合器
-// @mixin nostyle {
-//   list-style: none;
-//   li{
-//     padding: 0;
-//     color: blue;
-//   }
-// }
-// .list{
-//   width: 500px;
-//   @include nostyle;
-// }
-
-// // 混合器传参
-// @mixin common($w,$h,$c) {
-//   width: $w;
-//   height: $h;
-//   color: $c;
-// }
-// .box1{
-//   background-color: #ccc;
-//   @include common(500px,200px,red);
-// }
-// .box2{
-//   padding: 10px;
-//   @include common(300px,100px,blue);
-// }
-
-// // 继承
-// .box3{
-//   padding: 20px;
-//   margin: 10px;
-//   font-size: 20px;
-// }
-// .box4{
-//   width: 500px;
-//   background: pink;
-//   @extend .box3;
-// }
 .wy_banner{
   height: 420px;
   margin: auto;
@@ -111,6 +16,7 @@
   margin: auto;
   margin-top: 30px;
   margin-bottom: 20px;
+  height: 420px;
   h2{
     display: inline-block;
     font-size: 28px;
@@ -127,9 +33,49 @@
     cursor: pointer;
     color: #333
   }
+  .left{
+    position: absolute;
+    top: 810px;
+    left: 100px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    opacity: 0.7;
+    background-color: #E2C199;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    &:hover{
+      opacity: 1;
+    }
+    
+  }
+  .right{
+    position: absolute;
+    top: 810px;
+    right: 90px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    opacity: 0.7;
+    background-color: #E2C199;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    &:hover{
+      opacity: 1;
+    }
+    
+  }
   .new_g{
     width: 1100px;
     margin-top: 20px;
+    position: relative;
+    height: 381px;
     .good{
       // display: flex;
       float: left;
@@ -139,12 +85,23 @@
       &:hover {
       box-shadow: 1px 1px 8px rgba(0,0,0,.2);
       background-color: #f4f0ea;
+      .img_none{
+        position: relative;
+        display: block;
+      }
+      img{
+        display: none;
+      }
       }
       div{
       background-color: #eee;
       img{
        width: 265px;
        cursor: pointer;
+      }
+      .img_none{
+        position: relative;
+        display: none;
       }
     }
       p{
@@ -170,6 +127,9 @@
       }
     }
      
+    }
+    .show{
+      z-index: 100px;
     }
   }
 .wy_hot{
@@ -356,21 +316,23 @@
           z-index: 2;
           float: left;
           cursor: pointer;
-          border-bottom:2px solid #B4A078 ;
+          border-bottom:2px solid #f4f0ea ;
           &:hover{
             color: #B4A078;
           }
           a{
             display: inline-block;
             color: #333;
-            
-            
-
             &:hover{
               color: #B4A078;
             }
           }
           }
+          .active{
+            border-bottom:2px solid #B4A078 ;
+            z-index: 99;
+          }
+          
         }
         }
       }
@@ -395,6 +357,7 @@
       margin: auto;
       // background: pink;
       margin-top: 20px;
+      display: none;
       ul{
         overflow: hidden;
         li{
@@ -413,16 +376,17 @@
             width: 222px;
             height: 180px;
             // background: lightblue;
-            border-bottom: 1px solid #ccc;
+            // border-bottom: 1px solid #ccc;
             a{
               display:inline-block;
-              width: 140px;
+              width: 180px;
               height: 180px;
-              margin: 0 20px;
+              padding: 0 17px;
+              border-bottom: 1px solid #ccc;
               
               .img{
-                width: 100%;
-                height: 100%;
+                width: 180px;
+                height: 180px;
               }
             }
             
@@ -481,6 +445,7 @@
               width: 230px;
               height: 320px;
               margin: 0 10px;
+              border-bottom: none;
               
               .img{
                 width: 100%;
@@ -532,11 +497,15 @@
       }
     
         }
+        .show{
+          display: block;
+        }
+        
+        
       }
+      
 }
-       
-
-
+  
 .g_grow{
   padding-top: 60px;
   width: 1090px;
@@ -603,12 +572,12 @@
     height: 22px;
     }
     }
-    .m-countDown{
+    .countDown{
     // position: relative;
     height: 40px;
     margin-bottom: 50px;
     text-align: center;
-    .j-hour{
+    .j_hours{
     display: inline-block;
     width: 40px;
     color: #fff;
@@ -621,7 +590,7 @@
     font-weight: 700;
     padding: 0 2px;
     }
-    .j-minute{
+    .j_minutes{
     display: inline-block;
     width: 40px;
     color: #fff;
@@ -629,7 +598,7 @@
     line-height: 40px;
     background-color: #615548;
     }
-    .j-second{
+    .j_seconds{
     display: inline-block;
     width: 40px;
     color: #fff;
@@ -779,6 +748,90 @@
   color: #fff;
 }
     }
+  .talk_box{
+  background-color: #F4F0EA;
+  margin-top: 70px;
+  height: 800px;
+.talk{
+  width: 1090px;
+  margin: auto;
+  .talk_t{
+    font-size: 28px;
+    font-weight: 700px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+  span {
+    font-size: 14px;
+    padding-left: 13px;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 50px;
+    color: #333;
+    z-index: 10;
+  }
+  div{
+    ul{
+      overflow: hidden;
+      margin-top: 20px;
+      li{
+        width: 345px;
+        height: 480px;
+        position: relative;
+        background-color: #fff;
+        a{
+          display: block;
+          width: 345px;
+          height: 345px;
+          img{
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .comment{
+          position: absolute;
+          left:5px ;
+          top: 305px;
+          background-color:#fff;
+          padding:0px 15px;
+          overflow: hidden;
+          width: 306px;
+          // height: 00px;
+          span{
+            color: #888;
+            font-size: 14px;
+            margin-top: 15px;
+            height: 10px;
+          }
+          .des{
+            font-size: 16px;
+            font-weight: 700;
+            margin: 0px;
+            .price{
+              display: inline-block;
+              color: #B4A078;
+              font-weight: normal;
+              padding-left: 30px;
+             
+            }
+          }
+          .text{
+            margin-top: 20px;
+            font-size: 13px;
+            color: #888;
+            line-height: 20px;
+          }
+
+        }
+
+      }
+    }
+  }
+}
+}
   
 
 
