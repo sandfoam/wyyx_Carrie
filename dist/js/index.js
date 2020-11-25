@@ -112,22 +112,69 @@ var left = document.querySelector('.left');
 var right = document.querySelector('right');
 var imgIndex = 0; //当前图片的下标
 
-var timer; //自动播放
-//在ul中补一张图片,把第一张图克隆下来
+var timer;
 
-var firstImg = main.children[0].cloneNode(true);
-main.appendChild(firstImg); //图片的长度
+function animate(dom, options, callback) {
+  // 遍历对象属性
+  for (var attr in options) {
+    // 获取元素当前的attr值
+    if (attr === 'opacity') {
+      // 获取当前元素的透明度*100
+      var current = parseInt(getComputedStyle(dom)[attr] * 100);
+      var target = options[attr] * 100;
+    } else if (attr.indexOf('scroll') !== -1) {
+      var current = dom[attr];
+      var target = options[attr];
+    } else {
+      var current = parseInt(getComputedStyle(dom)[attr]);
+      var target = options[attr];
+    }
 
-var imgLen = main.children.length; //图片的宽度 
+    options[attr] = {
+      'current': current,
+      'target': target
+    }; // 目标数据结构:
+    // options = {
+    //   'width': {
+    //     'current': 100,
+    //     'target': 300
+    //   },
+    //   'height': {
+    //     'current': 100,
+    //     'target': 300
+    //   },
+    //   ...
+    // }
+  } //自动播放
+  //在ul中补一张图片,把第一张图克隆下来
 
-var imgWidth = main.children[0].clientWidth; //进入页面的时候就自动播放
 
-autoMove(); //自动播放
+  var firstImg = main.children[0].cloneNode(true);
+  main.appendChild(firstImg); //图片的长度
 
-function autoMove() {
-  timer = setInterval(function () {
-    moveNext();
-  }, 3000);
+  var imgLen = main.children.length; //图片的宽度 
+
+  var imgWidth = main.children[0].clientWidth; //进入页面的时候就自动播放
+
+  autoMove(); //自动播放
+
+  function autoMove() {
+    timer = setInterval(function () {
+      moveNext();
+    }, 3000);
+  }
+
+  ; //播放下一页
+
+  function moveNext() {
+    imgIndex++; //临界值判断
+
+    if (imgIndex >= imgLen) {
+      imgIndex = 1;
+      content.scrollLeft = 0;
+    } //移动滚动条
+
+
+    animate;
+  }
 }
-
-; //播放下一页
