@@ -59,52 +59,54 @@
     color: #fff; }
     .wy_new .right:hover {
       opacity: 1; }
-  .wy_new .new_g {
-    width: 1100px;
-    margin-top: 20px;
-    position: relative;
-    height: 381px; }
-    .wy_new .new_g .good {
-      float: left;
-      width: 265px;
-      height: 381px;
-      margin-left: 10px; }
-      .wy_new .new_g .good:hover {
-        box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
-        background-color: #f4f0ea; }
-        .wy_new .new_g .good:hover .img_none {
-          position: relative;
-          display: block; }
-        .wy_new .new_g .good:hover img {
-          display: none; }
-      .wy_new .new_g .good div {
-        background-color: #eee; }
-        .wy_new .new_g .good div img {
-          width: 265px;
-          cursor: pointer; }
-        .wy_new .new_g .good div .img_none {
-          position: relative;
-          display: none; }
-      .wy_new .new_g .good p {
-        text-align: center;
-        color: #333;
-        width: px;
-        font-size: 14px;
-        margin-top: 30px;
-        width: 160px;
-        padding-left: 45px; }
-      .wy_new .new_g .good span {
-        display: inline-block;
-        color: #D4282D;
+  .wy_new .new_show {
+    width: 1090px;
+    margin: 0 auto;
+    overflow-x: auto; }
+    .wy_new .new_show .new_g {
+      width: 11000px;
+      margin-top: 20px;
+      position: relative;
+      height: 381px; }
+      .wy_new .new_show .new_g .good {
+        float: left;
         width: 265px;
-        text-align: center;
-        margin-top: 10px; }
-        .wy_new .new_g .good span i {
-          color: #ccc;
-          margin-left: 5px;
-          text-decoration: line-through; }
-  .wy_new .show {
-    z-index: 100px; }
+        height: 381px;
+        margin-left: 7px; }
+        .wy_new .new_show .new_g .good:hover {
+          box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+          background-color: #f4f0ea; }
+          .wy_new .new_show .new_g .good:hover .img_none {
+            position: relative;
+            display: block; }
+          .wy_new .new_show .new_g .good:hover img {
+            display: none; }
+        .wy_new .new_show .new_g .good div {
+          background-color: #eee; }
+          .wy_new .new_show .new_g .good div img {
+            width: 265px;
+            cursor: pointer; }
+          .wy_new .new_show .new_g .good div .img_none {
+            position: relative;
+            display: none; }
+        .wy_new .new_show .new_g .good p {
+          text-align: center;
+          color: #333;
+          width: px;
+          font-size: 14px;
+          margin-top: 30px;
+          width: 160px;
+          padding-left: 45px; }
+        .wy_new .new_show .new_g .good span {
+          display: inline-block;
+          color: #D4282D;
+          width: 265px;
+          text-align: center;
+          margin-top: 10px; }
+          .wy_new .new_show .new_g .good span i {
+            color: #ccc;
+            margin-left: 5px;
+            text-decoration: line-through; }
 
 .wy_hot {
   width: 108px;
@@ -591,11 +593,12 @@
 .talk_box {
   background-color: #F4F0EA;
   margin-top: 70px;
-  height: 700px; }
+  height: 700px;
+  position: relative; }
   .talk_box .left {
     position: absolute;
-    top: 810px;
-    left: 100px;
+    top: 295px;
+    left: 110px;
     width: 50px;
     height: 50px;
     cursor: pointer;
@@ -610,8 +613,8 @@
       opacity: 1; }
   .talk_box .right {
     position: absolute;
-    top: 810px;
-    right: 90px;
+    top: 310px;
+    right: 100px;
     width: 50px;
     height: 50px;
     cursor: pointer;
@@ -640,49 +643,57 @@
       height: 50px;
       line-height: 50px;
       margin-top: 50px;
-      color: #333;
+      color: #666;
       z-index: 10; }
-    .talk_box .talk div ul {
-      overflow: hidden;
-      margin-top: 20px; }
-      .talk_box .talk div ul li {
-        float: left;
-        width: 345px;
-        height: 480px;
-        position: relative;
-        background-color: #fff;
-        margin-left: 10px; }
-        .talk_box .talk div ul li a {
-          display: block;
+    .talk_box .talk .talk_scroll {
+      width: 1090px;
+      overflow-x: auto; }
+      .talk_box .talk .talk_scroll .talk_show {
+        width: 110000px;
+        overflow: hidden;
+        margin-top: 20px; }
+        .talk_box .talk .talk_scroll .talk_show li {
+          float: left;
           width: 345px;
-          height: 345px; }
-          .talk_box .talk div ul li a img {
-            width: 100%;
-            height: 100%; }
-        .talk_box .talk div ul li .comment {
-          position: absolute;
-          left: 5px;
-          top: 305px;
+          height: 480px;
+          position: relative;
           background-color: #fff;
-          padding: 0px 15px;
-          overflow: hidden;
-          width: 306px; }
-          .talk_box .talk div ul li .comment span {
-            color: #888;
-            font-size: 14px;
-            margin-top: 15px;
-            height: 10px; }
-          .talk_box .talk div ul li .comment .des {
-            font-size: 16px;
-            font-weight: 700;
-            margin: 0px; }
-            .talk_box .talk div ul li .comment .des .price {
-              display: inline-block;
-              color: #B4A078;
-              font-weight: normal;
-              padding-left: 30px; }
-          .talk_box .talk div ul li .comment .text {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #888;
-            line-height: 20px; }
+          margin-left: 15px; }
+          .talk_box .talk .talk_scroll .talk_show li a {
+            display: block;
+            width: 345px;
+            height: 345px;
+            overflow: hidden; }
+            .talk_box .talk .talk_scroll .talk_show li a:hover img {
+              transform: scale(1.1, 1.1);
+              transition: all 1.5s; }
+            .talk_box .talk .talk_scroll .talk_show li a img {
+              width: 100%;
+              height: 100%; }
+          .talk_box .talk .talk_scroll .talk_show li .comment {
+            position: absolute;
+            left: 5px;
+            top: 305px;
+            background-color: #fff;
+            padding: 0px 15px;
+            overflow: hidden;
+            width: 306px; }
+            .talk_box .talk .talk_scroll .talk_show li .comment span {
+              color: #888;
+              font-size: 14px;
+              margin-top: 15px;
+              height: 10px; }
+            .talk_box .talk .talk_scroll .talk_show li .comment .des {
+              font-size: 16px;
+              font-weight: 700;
+              margin: 0px; }
+              .talk_box .talk .talk_scroll .talk_show li .comment .des .price {
+                display: inline-block;
+                color: #B4A078;
+                font-weight: normal;
+                padding-left: 30px; }
+            .talk_box .talk .talk_scroll .talk_show li .comment .text {
+              margin-top: 20px;
+              font-size: 13px;
+              color: #888;
+              line-height: 20px; }

@@ -13,93 +13,31 @@ $(".innerWrap ul .item").each(function (index,item) {
     })
 });
 
+//新品首发板块轮播图
+var prev = $('.left');
+var next = $('.right');
+var box = $('.new_show');
+// var showIndex = 0 // 当前显示图片的下标
+    
+    next.on("click",function(){
+        console.log(111)
+        box.animate({
+           scrollLeft :1090
+        },1000)
+    }) 
+    prev.on("click",function(){
+        box.animate({
+            scrollLeft :0
+         },1000)
+    }) 
+    
 
-var prev =document.querySelector('.left')
-var next =document.querySelector('.right')
-var box =document.querySelector('.new_g')
-var showIndex = 0 // 当前显示图片的下标
-var timer
-
-
-//animate封装函数
-function animate(dom,options,callback){
-    // 遍历对象属性
-    for (var attr in options){
-      // 获取元素当前的attr值
-      if (attr === 'opacity') {
-        // 获取当前元素的透明度*100
-        var current = parseInt( getComputedStyle(dom)[attr]*100 )
-        var target = options[attr]*100
-      } else if (attr.indexOf('scroll') !== -1){
-        var current = dom[attr]
-        var target = options[attr]
-      } else {
-        var current = parseInt( getComputedStyle(dom)[attr] )
-        var target = options[attr]
-      }
-      options[attr] = {
-        'current': current,
-        'target': target
-      }
-      // 目标数据结构:
-      // options = {
-      //   'width': {
-      //     'current': 100,
-      //     'target': 300
-      //   },
-      //   'height': {
-      //     'current': 100,
-      //     'target': 300
-      //   },
-      //   ...
-      // }
-    }
-
-    function moveNext(){
-        box[showIndex].className ='';
-        showIndex++;
-        box[showIndex].className ='show';
-    }
-    prev.onclick =function(){
-        moveNext();
-    }
-    function movePrev(){
-        box[showIndex].className ='';
-        showIndex--;
-        
-
-    }
 
 
 
 
 /* 计时器 */
-//倒计时时间
-/* $(function(){
-    timeDown("countDown",3600000);
-});
-function timeDown (id,value){
-    //倒计时的总秒数
-    var totalSeconds = parseInt(value/1000);//3600
 
-    //取余
-    var modulo = totalSeconds % (60*60*24);
-    //小时数
-    var hours =Math.floor(modulo/(60*60));
-    var minutes =Math.floor(modulo/60);
-    var seconds =modulo % 60;
-    hours = hours.toString().length == 1 ? "0"+ hours:hours;
-    minutes = minutes.toString().length == 1 ? "0"+ minutes:minutes;
-    seconds = seconds.toString().length == 1 ? "0"+ minutes:seconds;
-    document.querySelector(m-countDown).innerHTML = "hours" + "minutes" + "seconds"
-    if(hours == "00" && minutes == "00" && parseInt(seconds)-1<0){
-    }else{
-        setTimeout(function(){
-            timeDown(id,value-1000);
-        },1000)
-    }
-
-} */
 //获取时间差
 function getDifTime(startDate,endDate){
    return (endDate.getTime() - startDate.getTime()) //1000;
@@ -172,4 +110,31 @@ function init(s){
 			}
             init(s);
         },1000);
-    
+
+// talk板块 轮播图  
+//获取元素
+var content =document.querySelector('talk_scroll');
+var main = document.querySelector('talk_show');
+var lis = document.querySelectorAll('.li');
+var left = document.querySelector('.left');
+var right = document.querySelector('right');
+var imgIndex = 0; //当前图片的下标
+var timer;
+//自动播放
+//在ul中补一张图片,把第一张图克隆下来
+var firstImg = main.children[0].cloneNode(true);
+main.appendChild(firstImg);
+
+//图片的长度
+var imgLen = main.children.length;
+//图片的宽度 
+var imgWidth =main.children[0].clientWidth;
+//进入页面的时候就自动播放
+autoMove();
+//自动播放
+function autoMove() {
+    timer =setInterval(function () {
+        moveNext()  
+    },3000)
+};
+//播放下一页
