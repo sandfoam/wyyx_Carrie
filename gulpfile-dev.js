@@ -19,7 +19,7 @@ task('img', async ()=>{
 // 处理JS
 task('script', async ()=>{
   src('./js/*.js')
-  .pipe(load.babel({ presets: ['@babel/env']}))  //ES6转ES5
+  // .pipe(load.babel({ presets: ['@babel/env']}))  //ES6转ES5
   .pipe(dest('./dist/js'))
   .pipe(load.connect.reload())
 })

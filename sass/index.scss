@@ -756,7 +756,7 @@
   margin-top: 70px;
   height: 700px;
   position: relative;
-  .left{
+  .left_{
     position: absolute;
     top: 295px;
     left: 110px;
@@ -775,7 +775,7 @@
     }
     
   }
-  .right{
+  .right_{
     position: absolute;
     top: 310px;
     right: 100px;
@@ -817,7 +817,7 @@
   }
   .talk_scroll{
     width: 1090px;
-    overflow-x: auto;
+    overflow-x: hidden;
     .talk_show{
       width: 110000px;
       overflow: hidden;

@@ -595,7 +595,7 @@
   margin-top: 70px;
   height: 700px;
   position: relative; }
-  .talk_box .left {
+  .talk_box .left_ {
     position: absolute;
     top: 295px;
     left: 110px;
@@ -609,9 +609,9 @@
     text-align: center;
     border-radius: 50%;
     color: #fff; }
-    .talk_box .left:hover {
+    .talk_box .left_:hover {
       opacity: 1; }
-  .talk_box .right {
+  .talk_box .right_ {
     position: absolute;
     top: 310px;
     right: 100px;
@@ -625,7 +625,7 @@
     text-align: center;
     border-radius: 50%;
     color: #fff; }
-    .talk_box .right:hover {
+    .talk_box .right_:hover {
       opacity: 1; }
   .talk_box .talk {
     width: 1090px;
@@ -647,7 +647,7 @@
       z-index: 10; }
     .talk_box .talk .talk_scroll {
       width: 1090px;
-      overflow-x: auto; }
+      overflow-x: hidden; }
       .talk_box .talk .talk_scroll .talk_show {
         width: 110000px;
         overflow: hidden;

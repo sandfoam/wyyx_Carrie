@@ -1,0 +1,108 @@
+.bdbg {
+  width: 100%;
+  height: 600px;
+  background: url(./../img/login_banner.jpg) center no-repeat; }
+  .bdbg .bg_center {
+    width: 1090px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative; }
+    .bdbg .bg_center .loginBox {
+      margin-top: 83px;
+      margin-left: 703px;
+      width: 386px;
+      height: auto !important;
+      background: #fff;
+      position: absolute;
+      top: 20px;
+      right: 40px; }
+      .bdbg .bg_center .loginBox .loginHeader {
+        font-size: 18px;
+        color: #333;
+        letter-spacing: 0;
+        line-height: 18px;
+        width: 306px;
+        overflow: hidden; }
+        .bdbg .bg_center .loginBox .loginHeader .phone {
+          float: left;
+          margin: 20px 42px;
+          color: #999;
+          margin-top: 20px; }
+        .bdbg .bg_center .loginBox .loginHeader .active {
+          color: #333; }
+        .bdbg .bg_center .loginBox .loginHeader .ii {
+          float: left;
+          margin-top: 20px; }
+        .bdbg .bg_center .loginBox .loginHeader .email {
+          float: left;
+          color: #999;
+          margin-top: 20px;
+          margin-left: 55px; }
+      .bdbg .bg_center .loginBox .login-content {
+        display: none;
+        overflow: hidden; }
+        .bdbg .bg_center .loginBox .login-content a {
+          height: 26px;
+          line-height: 26px;
+          float: right;
+          color: #666;
+          margin-right: 60px;
+          margin-bottom: 5px; }
+          .bdbg .bg_center .loginBox .login-content a:hover {
+            color: #b4a078; }
+        .bdbg .bg_center .loginBox .login-content .ipt {
+          width: 300px;
+          height: 36px;
+          font-size: 14px;
+          color: #666;
+          margin-left: 40px; }
+        .bdbg .bg_center .loginBox .login-content .check_box {
+          width: 300px;
+          height: 36px;
+          margin-top: 20px; }
+          .bdbg .bg_center .loginBox .login-content .check_box .check_p {
+            width: 166px;
+            height: 36px;
+            color: #666;
+            font-size: 14px;
+            margin-left: 40px; }
+          .bdbg .bg_center .loginBox .login-content .check_box .check_but {
+            height: 38px;
+            font-size: 14px; }
+        .bdbg .bg_center .loginBox .login-content .btn {
+          width: 300px;
+          height: 40px;
+          text-align: center;
+          line-height: 40px;
+          background: #b4a078;
+          font-size: 16px;
+          margin-top: 50px;
+          margin-left: 45px;
+          color: #fff;
+          border: none; }
+        .bdbg .bg_center .loginBox .login-content .agree {
+          margin-top: 10px;
+          margin-left: 50px; }
+          .bdbg .bg_center .loginBox .login-content .agree input {
+            margin-top: 5px; }
+          .bdbg .bg_center .loginBox .login-content .agree span {
+            display: inline-block;
+            height: 16px;
+            font-size: 12px;
+            line-height: 16px; }
+            .bdbg .bg_center .loginBox .login-content .agree span i {
+              color: #999; }
+      .bdbg .bg_center .loginBox .show {
+        display: block; }
+      .bdbg .bg_center .loginBox .log_bot {
+        width: 100%;
+        height: 60px;
+        background: #eee;
+        margin-top: 50px; }
+        .bdbg .bg_center .loginBox .log_bot p {
+          color: 12px;
+          height: 60px;
+          line-height: 60px;
+          margin-left: 293px;
+          color: #888;
+          margin-top: 40px; }
