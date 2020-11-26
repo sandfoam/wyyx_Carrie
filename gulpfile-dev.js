@@ -16,6 +16,13 @@ task('img', async ()=>{
   .pipe(load.connect.reload())  //执行刷新
 })
 
+// 处理json
+task('json', async ()=>{
+  src('./json/*.json')
+  .pipe(dest('./dist/json'))
+  .pipe(load.connect.reload())  //执行刷新
+})
+
 // 处理JS
 task('script', async ()=>{
   src('./js/*.js')
@@ -45,6 +52,8 @@ task('watch', async ()=>{
   watch('./sass/*.scss',series('sass'))
   watch('./img/*.*',series('img'))
   watch('./js/*.js',series('script'))
+  watch('./json/*.json',series('json'))
+
 })
 
 // 自动刷新服务
@@ -56,4 +65,4 @@ task('connect', async ()=>{
   })
 })
 
-task('dev', series('delDist','img','html','script','sass','connect','watch'))
+task('dev', series('delDist','img','html','script','json','sass','connect','watch'))
