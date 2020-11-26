@@ -76,6 +76,100 @@
         // margin-right: 20px;
         img{
             margin-left: 40px;
+            width: 620px;
+            height: 405px;
+        }
+        .kg{
+            margin-left: 40px;
+            overflow: hidden;
+            .kg_p{
+                float: left;
+                font-size: 12px;
+                color: #666;
+                width: 54px;
+                margin-left: 43px;
+                // line-height: ;
+            }
+            .kg_150{
+                float: left;
+                line-height: 26px;
+                border: 2px solid #b4a078;
+                 color: #333;
+                 width: 68px;
+                 margin-top: 10px;
+                 text-align: center;
+            }
+        }
+        .number{
+            margin-left: 40px;
+            overflow: hidden;
+            .num_p{
+                float: left;
+                font-size: 12px;
+                color: #666;
+                width: 54px;
+                margin-left: 43px;
+            }
+            .num_box{
+                float: left;
+                width: 134px;
+                height: 30px;
+                margin-top: 10px;
+                border: 1px solid #ccc;
+                .num_less{
+                    display: inline-block;
+                    line-height: 28px;
+                    text-align: center;
+                    height: 30px;
+                    width: 36px;
+                    border-right: 1px solid #ccc;
+                }
+                .num_n{
+                    display: inline-block;
+                    line-height: 28px;
+                    text-align: center;
+                    height: 30px;
+                    width: 60px;
+                    border-right: 1px solid #ccc;
+                }
+                .num_more{
+                    display: inline-block;
+                    line-height: 28px;
+                    text-align: center;
+                    height: 30px;
+                    width: 29px;
+                    // border-right: 1px solid #ccc;
+                }
+            }
+        }
+        .btn_box{
+            // background: #888;
+            margin-top: 20px;
+            .buy{
+                display: inline-block;
+                width: 168px;
+                height: 50px;
+                line-height: 50px;
+                font-size: 18px;
+                color: #b4a078;
+                border: 1px solid #b4a078;
+                background-color: #f5f3ef;
+                margin-left: 40px;
+                text-align: center;
+            }
+            .cart{
+                display: inline-block;
+                width: 168px;
+                height: 50px;
+                line-height: 50px;
+                font-size: 18px;
+                border: 1px solid #b4a078;
+                background-color: #f5f3ef;
+                margin-left: 20px;
+                text-align: center;
+                color: #fff;
+                background-color: #b4a078;
+            }
         }
     }
 }

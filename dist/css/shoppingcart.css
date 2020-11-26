@@ -1,0 +1,155 @@
+.wrap {
+  border-top: 1px solid #ccc; }
+  .wrap .main {
+    width: 1090px;
+    margin: auto;
+    background: pink;
+    height: 500px; }
+    .wrap .main .cart_title {
+      margin-bottom: 20px;
+      padding: 12px 0;
+      border: 1px solid #ddd;
+      margin-top: 10px;
+      background-color: #f5f5f5;
+      overflow: hidden;
+      height: 20px;
+      line-height: 20px;
+      font-size: 14px;
+      color: #555;
+      text-align: left; }
+      .wrap .main .cart_title .ipt_t {
+        float: left;
+        height: 18px;
+        width: 18px;
+        margin-left: 20px;
+        margin-top: 2px; }
+      .wrap .main .cart_title .all {
+        float: left;
+        margin-left: 10px; }
+      .wrap .main .cart_title .t_01 {
+        float: left;
+        margin-left: 60px; }
+      .wrap .main .cart_title .t_02 {
+        float: left;
+        margin-left: 320px; }
+      .wrap .main .cart_title .t_03 {
+        float: left;
+        margin-left: 110px; }
+      .wrap .main .cart_title .t_04 {
+        float: left;
+        margin-left: 110px; }
+      .wrap .main .cart_title .t_05 {
+        float: left;
+        margin-left: 180px; }
+    .wrap .main .select {
+      margin-bottom: 20px;
+      padding: 12px 0;
+      border: 1px solid #ddd;
+      margin-top: 10px;
+      background-color: #f5f5f5;
+      overflow: hidden;
+      height: 100px;
+      line-height: 100px;
+      font-size: 14px;
+      color: #555;
+      text-align: left; }
+      .wrap .main .select .ipt_s {
+        float: left;
+        height: 18px;
+        width: 18px;
+        margin-left: 20px;
+        margin-top: 45px; }
+      .wrap .main .select .se_img {
+        width: 98px;
+        height: 98px;
+        float: left;
+        margin-left: 20px; }
+        .wrap .main .select .se_img image {
+          width: 100%;
+          height: 100%; }
+      .wrap .main .select h3 {
+        float: left; }
+      .wrap .main .select .price_01 {
+        float: left;
+        margin-left: 114px;
+        color: red; }
+        .wrap .main .select .price_01 span {
+          text-decoration: line-through;
+          color: #666; }
+      .wrap .main .select .num_box {
+        float: left;
+        width: 108px;
+        height: 24px;
+        margin-left: 40px; }
+        .wrap .main .select .num_box .num_less {
+          display: inline-block;
+          line-height: 28px;
+          text-align: center;
+          width: 24px;
+          border-right: 1px solid #ccc; }
+        .wrap .main .select .num_box .num_n {
+          display: inline-block;
+          line-height: 24px;
+          text-align: center;
+          width: 50px;
+          border-right: 1px solid #ccc; }
+        .wrap .main .select .num_box .num_more {
+          display: inline-block;
+          line-height: 24px;
+          text-align: center;
+          width: 24px; }
+      .wrap .main .select .price_02 {
+        float: left;
+        margin-left: 60px;
+        color: red; }
+      .wrap .main .select .handle {
+        float: left;
+        margin-left: 130px; }
+        .wrap .main .select .handle .like {
+          margin-right: 20px; }
+          .wrap .main .select .handle .like:hover {
+            color: #B4A078; }
+        .wrap .main .select .handle .delete:hover {
+          color: #B4A078; }
+    .wrap .main .pay {
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      margin-top: 10px;
+      background-color: #f5f5f5;
+      overflow: hidden;
+      height: 70px;
+      line-height: 70px;
+      font-size: 14px;
+      color: #555;
+      text-align: left; }
+      .wrap .main .pay .ipt_pay {
+        float: left;
+        height: 18px;
+        width: 18px;
+        margin-left: 20px;
+        margin-top: 27px; }
+      .wrap .main .pay .pay_del {
+        float: left;
+        margin-left: 30px; }
+        .wrap .main .pay .pay_del:hover {
+          color: #B4A078; }
+      .wrap .main .pay .pay_clear {
+        float: left;
+        margin-left: 30px; }
+        .wrap .main .pay .pay_clear:hover {
+          color: #B4A078; }
+      .wrap .main .pay .pay_money {
+        float: left;
+        margin-left: 600px; }
+        .wrap .main .pay .pay_money span {
+          color: red;
+          font-size: 18px; }
+      .wrap .main .pay .buy_it {
+        display: inline-block;
+        height: 89px;
+        width: 101px;
+        margin-left: 22px;
+        text-align: center;
+        color: #fff;
+        background-color: #B4A078;
+        font-size: 16px; }
