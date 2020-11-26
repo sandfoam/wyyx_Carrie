@@ -1,5 +1,6 @@
 
 $(".header").load("./common_header.html");
+$(".footer").load("./common_footer.html");
 
 
 /* 人气推荐 tab切换 */
