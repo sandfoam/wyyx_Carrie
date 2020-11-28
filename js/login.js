@@ -43,6 +43,7 @@ btn.onclick = function () {
        if (regPhone.test(val)) { 
            
           alert('登录成功')
+          open('./shoppingcart.html')
         } else {
           alert('输入有误,请重新输入')
         }

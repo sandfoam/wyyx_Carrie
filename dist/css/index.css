@@ -3,9 +3,6 @@
   margin: auto;
   border: 2px solid #eeeeee;
   overflow: hidden; }
-  .wy_banner img {
-    width: 100%;
-    height: 100%; }
 
 .wy_new {
   width: 1090px;
@@ -598,7 +595,7 @@
   .talk_box .left_ {
     position: absolute;
     top: 295px;
-    left: 110px;
+    left: 75px;
     width: 50px;
     height: 50px;
     cursor: pointer;
@@ -646,10 +643,10 @@
       color: #666;
       z-index: 10; }
     .talk_box .talk .talk_scroll {
-      width: 1090px;
+      width: 1065px;
       overflow-x: hidden; }
       .talk_box .talk .talk_scroll .talk_show {
-        width: 110000px;
+        width: 11000px;
         overflow: hidden;
         margin-top: 20px; }
         .talk_box .talk .talk_scroll .talk_show li {
@@ -658,7 +655,7 @@
           height: 480px;
           position: relative;
           background-color: #fff;
-          margin-left: 15px; }
+          margin-right: 15px; }
           .talk_box .talk .talk_scroll .talk_show li a {
             display: block;
             width: 345px;

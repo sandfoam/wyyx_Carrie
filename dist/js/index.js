@@ -44,7 +44,7 @@ var j_hours = document.querySelector(".j_hours");
 var j_minutes = document.querySelector(".j_minutes");
 var j_seconds = document.querySelector(".j_seconds");
 //设置结束时间
-var endDate = new Date("2020/11/26 12:12:12");
+var endDate = new Date("2020/11/28 12:12:12");
 //获取当前时间
 var nowDate = new Date();
 //获取时间差
@@ -94,7 +94,7 @@ function init(s){
 }
  // 定时器控制秒
 		
-		/* var timer = setInterval(function(){
+		var timer = setInterval(function(){
 			s-=1000;
             console.log(s);
             // console.log(day,hour,minute)
@@ -106,7 +106,7 @@ function init(s){
 				return;
 			}
             init(s);
-        },1000); */
+        },1000); 
 
 // talk板块 轮播图  
 //获取元素

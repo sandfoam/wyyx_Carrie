@@ -11,12 +11,13 @@ $.ajax({
     var str = "";
     $.each(data.oneDayHotSellList,function(index, item){
     // console.log(item)
-    str +=`<li>
-    <div><img src="${item.scenePicUrl}" alt=""></div>
-    <div><img src="${item.listPicUrl} " class="img_none" alt=""></div>
+    // 商品详情页和购物车需要用到这里的ID,所以要先获取到商品的id
+    str +=`<li code = "${item.id}"> 
+    <div><a href="./good_detail.html?code=${item.id}" target="_blank" ><img src="${item.scenePicUrl}" alt=""></a></div>
+    <div><a href="./good_detail.html?code=${item.id}" target="_blank"><img src="${item.listPicUrl} " class="img_none" alt=""></a></div>
     <p>${item.name}</p>
     <span>¥${item.retailPrice}<i>¥${item.counterPrice}</i></span>
-</li>`
+ </li>`
     } )
 $('.list_01 .lis').html(str)
 
@@ -24,9 +25,9 @@ console.log(data)
 
 $.each(data.popularTotalList,function(index, item){
     // console.log(item)
-    str +=`<li>
-    <div><img src="${item.scenePicUrl}" alt=""></div>
-    <div><img src="${item.listPicUrl} " class="img_none" alt=""></div>
+    str +=`<li code = "${item.id}">
+    <div><a href="./good_detail.html?code=${item.id}" target="_blank"><img src="${item.scenePicUrl}" alt=""></a></div>
+    <div><a href="./good_detail.html?code=${item.id}" target="_blank""><img src="${item.listPicUrl} " class="img_none" alt=""></a></div>
     <p>${item.name}</p>
     <span>¥${item.retailPrice}<i>¥${item.counterPrice}</i></span>
 </li>`
@@ -36,3 +37,11 @@ console.log($('.list_02 .lis02'))
 
     }
 })
+
+
+
+// //要获取商品列表页的id来做购物车的数据传输
+// //通过url获取到下标为1的数组
+// var code = location.href.split('?')[1].split("=")[1];
+//  console.log(code);
+//  console.log(location.href);

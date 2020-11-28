@@ -6,6 +6,9 @@
     width: 1090px;
     margin: auto;
     height: 800px; }
+    .main .good_box h4 {
+      font-size: 50px;
+      color: red; }
     .main .good_box p {
       font-size: 12px;
       height: 50px;
@@ -21,6 +24,9 @@
         height: 428px;
         border: 1px solid #ccc;
         position: relative; }
+        .main .good_box .good_show .show img {
+          width: 428px;
+          height: 428px; }
         .main .good_box .good_show .show .mask {
           width: 175px;
           height: 175px;
@@ -58,6 +64,10 @@
           border: 2px solid #b4a078;
           margin-right: 6px;
           float: left; }
+          .main .good_box .good_show .lis li img {
+            display: block;
+            width: 78px;
+            height: 78px; }
   .main .detail img {
     margin-left: 40px;
     width: 620px;
