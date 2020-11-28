@@ -8,8 +8,10 @@
         // background-color: pink;
         height: 800px;
         h4{
+            padding-top: 140px;
             font-size: 50px;
             color: red;
+            padding-left: 20px;
         }
         p{
             font-size: 12px;
@@ -135,6 +137,7 @@
                     height: 30px;
                     width: 36px;
                     border-right: 1px solid #ccc;
+                    
                 }
                 .num_n{
                     display: inline-block;

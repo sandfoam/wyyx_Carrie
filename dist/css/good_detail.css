@@ -7,8 +7,10 @@
     margin: auto;
     height: 800px; }
     .main .good_box h4 {
+      padding-top: 140px;
       font-size: 50px;
-      color: red; }
+      color: red;
+      padding-left: 20px; }
     .main .good_box p {
       font-size: 12px;
       height: 50px;

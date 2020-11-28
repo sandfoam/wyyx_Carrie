@@ -77,26 +77,31 @@
           color: #666; }
       .wrap .main .select .num_box {
         float: left;
-        width: 108px;
+        width: 109px;
         height: 24px;
-        margin-left: 40px; }
+        border: 1px solid #ccc;
+        margin-left: 40px;
+        margin-top: 35px; }
         .wrap .main .select .num_box .num_less {
-          display: inline-block;
-          line-height: 28px;
+          float: left;
+          line-height: 22px;
           text-align: center;
-          width: 24px;
-          border-right: 1px solid #ccc; }
+          width: 29px;
+          border-right: 1px solid #ccc;
+          border: none; }
         .wrap .main .select .num_box .num_n {
-          display: inline-block;
-          line-height: 24px;
+          float: left;
+          line-height: 22px;
           text-align: center;
           width: 50px;
-          border-right: 1px solid #ccc; }
+          border-right: 1px solid #ccc;
+          border: none; }
         .wrap .main .select .num_box .num_more {
-          display: inline-block;
-          line-height: 24px;
+          float: left;
+          line-height: 22px;
           text-align: center;
-          width: 24px; }
+          width: 29px;
+          border: none; }
       .wrap .main .select .price_02 {
         float: left;
         margin-left: 60px;

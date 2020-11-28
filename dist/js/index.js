@@ -44,7 +44,7 @@ var j_hours = document.querySelector(".j_hours");
 var j_minutes = document.querySelector(".j_minutes");
 var j_seconds = document.querySelector(".j_seconds");
 //设置结束时间
-var endDate = new Date("2020/11/28 12:12:12");
+var endDate = new Date("2020/11/29 12:12:12");
 //获取当前时间
 var nowDate = new Date();
 //获取时间差
@@ -227,6 +227,7 @@ function autoMove() {
         moveNext() ; 
     },3000)
 };
+console.log('3333');
 //播放下一页
 function moveNext() {
 imgIndex++;
