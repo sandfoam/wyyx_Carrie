@@ -33,7 +33,8 @@ var box = $('.new_show');
     }) 
      
     console.log('99999');
-/* 计时器 */
+
+    /* 计时器 */
 
 //获取时间差
 function getDifTime(startDate,endDate){
@@ -94,19 +95,19 @@ function init(s){
 }
  // 定时器控制秒
 		
-		var timer = setInterval(function(){
-			s-=1000;
-            console.log(s);
-            // console.log(day,hour,minute)
-            // console.log(111)
-			if(s <= 0){
-                // showTime.innerHTML = "商品活动时间已结束";
-				//清除定时器
-				clearInterval(timer);
-				return;
-			}
-            init(s);
-        },1000); 
+		// var timer = setInterval(function(){
+		// 	s-=1000;
+    //         console.log(s);
+    //         // console.log(day,hour,minute)
+    //         // console.log(111)
+		// 	if(s <= 0){
+    //             // showTime.innerHTML = "商品活动时间已结束";
+		// 		//清除定时器
+		// 		clearInterval(timer);
+		// 		return;
+		// 	}
+    //         init(s);
+    //     },1000); 
 
 // talk板块 轮播图  
 //获取元素

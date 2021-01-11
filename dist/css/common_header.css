@@ -1,7 +1,8 @@
 #header {
   width: 100%;
   height: 100%;
-  margin: auto; }
+  margin: auto;
+  position: relative; }
   #header .top {
     position: relative;
     height: 36px;
@@ -353,15 +354,58 @@
   overflow: hidden;
   background-color: #fff; }
   .box01 .li_nav {
+    overflow: hidden;
     width: 1200px; }
     .box01 .li_nav a {
+      display: block;
       float: left;
       padding-right: 52px;
       font-size: 14px;
       font-weight: bold; }
+      .box01 .li_nav a .yellow {
+        color: #cc9756;
+        border-bottom: 3px solid #cc9756; }
       .box01 .li_nav a li {
         padding-bottom: 5px;
         border-bottom: 3px solid #fff; }
       .box01 .li_nav a:hover li {
         color: #cc9756;
         border-bottom: 3px solid #cc9756; }
+
+.navTop {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 174px;
+  padding: -1px 20px 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  display: none;
+  z-index: 99; }
+  .navTop .navBox {
+    display: flex;
+    justify-content: center; }
+    .navTop .navBox ul {
+      float: left;
+      background-color: #fff;
+      padding: 0 10px; }
+      .navTop .navBox ul h3 {
+        padding-top: 5px;
+        line-height: 36px;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: left;
+        border-bottom: 1px solid #ddd; }
+      .navTop .navBox ul li {
+        margin-bottom: 5px; }
+        .navTop .navBox ul li img {
+          width: 50px;
+          height: 50px;
+          margin-left: 10px; }
+        .navTop .navBox ul li span {
+          font-size: 12px;
+          vertical-align: middle; }
+          .navTop .navBox ul li span:hover {
+            color: #CC9756; }
+
+.show {
+  display: block; }

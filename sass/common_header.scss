@@ -1,314 +1,371 @@
-#header{
+#header {
     width: 100%;
     height: 100%;
     margin: auto;
-    .top{
     position: relative;
-    height: 36px;
-    line-height: 36px;
-    background-color: #333;
-    z-index: 5;
-    .nav{
-    width: 1090px;
-    margin: 0 auto;
-    position: relative;
-    .nav_left{
-        float: left;
+
+    .top {
+        position: relative;
+        height: 36px;
         line-height: 36px;
-        img{
-            vertical-align: middle;
-            margin-right: 10px;
-        }
-        a{
-            color: #CC9756;
-            font-size: 12px;
-            text-decoration: underline;
-            &:hover{
-                color: #fff;
-                text-decoration: none;
-            }
-        }
-    }
-    .nav_right{
-        float: right;
-        .top_lis{
-            list-style:none;
-            li {
+        background-color: #333;
+        z-index: 5;
+
+        .nav {
+            width: 1090px;
+            margin: 0 auto;
+            position: relative;
+
+            .nav_left {
                 float: left;
-                padding-left: 10px;
-                a{
-                    color: #ccc;
-                    font-size: 12px;
-                    &:hover{
-                        color: #fff;
-                    }
-                }
-                .ii{
-                    display: inline-block;
-                    height: 16px;
-                    background-color: #5c5c5c;
-                    width: 1px;
+                line-height: 36px;
+
+                img {
                     vertical-align: middle;
-                    margin-left: 10px;
-            }
+                    margin-right: 10px;
                 }
-                .com{
-                    position: relative;
-                    &:hover .com_show{
-                        display: block;
+
+                a {
+                    color: #CC9756;
+                    font-size: 12px;
+                    text-decoration: underline;
+
+                    &:hover {
+                        color: #fff;
+                        text-decoration: none;
                     }
-                    .com_show{
-                    display: none;
-                    position: absolute;
-                    top: 36px;
-                    left: 0;
-                    padding: 0 10px;
-                    background-color: white;
-                    border: 1px solid #ccc;
-                    &::after {
-                        content: "";
-                        display: block;
-                        width: 0;
-                        height: 0;
-                        position: absolute;
-                        left: 23px;
-                        top: -20px;
-                        border-top: 10px solid transparent;
-                        border-left: 10px solid transparent;
-                        border-right: 10px solid transparent;
-                        border-bottom: 10px solid #fff;
-                    }
-                    a {
-                        display: block;
-                        text-align: center;
-                        line-height: 36px;
-                        border-bottom: 1px solid #ccc;
-                        &:hover {
-                        color:#CC9756 ;
+                }
+            }
+
+            .nav_right {
+                float: right;
+
+                .top_lis {
+                    list-style: none;
+
+                    li {
+                        float: left;
+                        padding-left: 10px;
+
+                        a {
+                            color: #ccc;
+                            font-size: 12px;
+
+                            &:hover {
+                                color: #fff;
+                            }
+                        }
+
+                        .ii {
+                            display: inline-block;
+                            height: 16px;
+                            background-color: #5c5c5c;
+                            width: 1px;
+                            vertical-align: middle;
+                            margin-left: 10px;
                         }
                     }
-                    }
-                }
-				.cus {
-					position: relative;
-					&:hover .cus_show {
-					display: block;
-					}
-					.cus_show {
-						display: none;
-						position: absolute;
-						top: 36px;
-                        right: 0px;
-                        background-color: #fff;
-                        border: 1px solid #ccc;
-						&::after {
-							content: "";
-							display: block;
-							width: 0;
-							height: 0;
-							position: absolute;
-							left: 15px;
-							top: -20px;
-							border-top: 10px solid transparent;
-							border-left:10px solid transparent;
-							border-right:10px solid transparent;
-							border-bottom:10px solid #fff;
-						}
-						a{
-							display: block;
-							// font-size: 12px;
-							text-align: center;
-							line-height: 36px;
-							border-bottom:1px solid #ccc;
-							&:hover{
-							color:#CC9756 ;
-							}
-						}
-					}
-				}
-				.APP_QR {
-                    position: relative;
-                    .icon_top{
-                        display: inline-block;
-                        margin-right: 6px;
-                        line-height: 36px;
-                        vertical-align: middle;
-                        // overflow: hidden;
-                        background-image: url(../img/icon-appletop.webp);
-						// background-repeat: no-repeat;
-						background-position-x:0px;
-                        background-position-y:0px; 
-                        height: 11px;
-                        width: 7px;
-                        word-spacing: normal;
-                        letter-spacing: normal;
-                        z-index: 5;
-                    }
-                    .Apple {
-                        display: inline-block;
-                        line-height: 36px;
-                        vertical-align: middle;
-                        word-spacing: normal;
-                        letter-spacing: normal;
-                        z-index: 5;
-                    } 
-                    a:hover .img{
+
+                    .com {
+                        position: relative;
+
+                        &:hover .com_show {
                             display: block;
                         }
-                        img{
-							display: none;
-							width: 117px;
+
+                        .com_show {
+                            display: none;
+                            position: absolute;
+                            top: 36px;
+                            left: 0;
+                            padding: 0 10px;
+                            background-color: white;
+                            border: 1px solid #ccc;
+
+                            &::after {
+                                content: "";
+                                display: block;
+                                width: 0;
+                                height: 0;
+                                position: absolute;
+                                left: 23px;
+                                top: -20px;
+                                border-top: 10px solid transparent;
+                                border-left: 10px solid transparent;
+                                border-right: 10px solid transparent;
+                                border-bottom: 10px solid #fff;
+                            }
+
+                            a {
+                                display: block;
+                                text-align: center;
+                                line-height: 36px;
+                                border-bottom: 1px solid #ccc;
+
+                                &:hover {
+                                    color: #CC9756;
+                                }
+                            }
+                        }
+                    }
+
+                    .cus {
+                        position: relative;
+
+                        &:hover .cus_show {
+                            display: block;
+                        }
+
+                        .cus_show {
+                            display: none;
+                            position: absolute;
+                            top: 36px;
+                            right: 0px;
+                            background-color: #fff;
+                            border: 1px solid #ccc;
+
+                            &::after {
+                                content: "";
+                                display: block;
+                                width: 0;
+                                height: 0;
+                                position: absolute;
+                                left: 15px;
+                                top: -20px;
+                                border-top: 10px solid transparent;
+                                border-left: 10px solid transparent;
+                                border-right: 10px solid transparent;
+                                border-bottom: 10px solid #fff;
+                            }
+
+                            a {
+                                display: block;
+                                // font-size: 12px;
+                                text-align: center;
+                                line-height: 36px;
+                                border-bottom: 1px solid #ccc;
+
+                                &:hover {
+                                    color: #CC9756;
+                                }
+                            }
+                        }
+                    }
+
+                    .APP_QR {
+                        position: relative;
+
+                        .icon_top {
+                            display: inline-block;
+                            margin-right: 6px;
+                            line-height: 36px;
+                            vertical-align: middle;
+                            // overflow: hidden;
+                            background-image: url(../img/icon-appletop.webp);
+                            // background-repeat: no-repeat;
+                            background-position-x: 0px;
+                            background-position-y: 0px;
+                            height: 11px;
+                            width: 7px;
+                            word-spacing: normal;
+                            letter-spacing: normal;
+                            z-index: 5;
+                        }
+
+                        .Apple {
+                            display: inline-block;
+                            line-height: 36px;
+                            vertical-align: middle;
+                            word-spacing: normal;
+                            letter-spacing: normal;
+                            z-index: 5;
+                        }
+
+                        a:hover .img {
+                            display: block;
+                        }
+
+                        img {
+                            display: none;
+                            width: 117px;
                             height: 117px;
-						} 
-					}
-					
-				}
+                        }
+                    }
+
+                }
             }
         }
     }
 }
-.top{
+
+.top {
     position: relative;
     height: 36px;
     line-height: 36px;
     background-color: #333;
     z-index: 5;
-    .nav{
-    width: 1090px;
-    margin: 0 auto;
-    position: relative;
-    .nav_left{
-        float: left;
-        line-height: 36px;
-        img{
-            vertical-align: middle;
-            margin-right: 10px;
-        }
-        a{
-            color: #CC9756;
-            font-size: 12px;
-            text-decoration: underline;
-            &:hover{
-                color: #fff;
-                text-decoration: none;
+
+    .nav {
+        width: 1090px;
+        margin: 0 auto;
+        position: relative;
+
+        .nav_left {
+            float: left;
+            line-height: 36px;
+
+            img {
+                vertical-align: middle;
+                margin-right: 10px;
+            }
+
+            a {
+                color: #CC9756;
+                font-size: 12px;
+                text-decoration: underline;
+
+                &:hover {
+                    color: #fff;
+                    text-decoration: none;
+                }
             }
         }
-    }
-    .nav_right{
-        float: right;
-        .top_lis{
-            list-style:none;
-            li {
-                float: left;
-                padding-left: 10px;
-                a{
-                    color: #ccc;
-                    font-size: 12px;
-                    &:hover{
-                        color: #fff;
-                    }
-                }
-                .ii{
-                    display: inline-block;
-                    height: 16px;
-                    background-color: #5c5c5c;
-                    width: 1px;
-                    vertical-align: middle;
-                    margin-left: 10px;
-            }
-                }
-                .com{
-                    position: relative;
-                    &:hover .com_show{
-                        display: block;
-                    }
-                    .com_show{
-                    display: none;
-                    position: absolute;
-                    top: 36px;
-                    left: 0;
-                    padding: 0 10px;
-                    background-color: white;
-                    border: 1px solid #ccc;
-                    &::after {
-                        content: "";
-                        display: block;
-                        width: 0;
-                        height: 0;
-                        position: absolute;
-                        left: 23px;
-                        top: -20px;
-                        border-top: 10px solid transparent;
-                        border-left: 10px solid transparent;
-                        border-right: 10px solid transparent;
-                        border-bottom: 10px solid #fff;
-                    }
+
+        .nav_right {
+            float: right;
+
+            .top_lis {
+                list-style: none;
+
+                li {
+                    float: left;
+                    padding-left: 10px;
+
                     a {
-                        display: block;
-                        text-align: center;
-                        line-height: 36px;
-                        border-bottom: 1px solid #ccc;
+                        color: #ccc;
+                        font-size: 12px;
+
                         &:hover {
-                        color:#CC9756 ;
+                            color: #fff;
                         }
                     }
+
+                    .ii {
+                        display: inline-block;
+                        height: 16px;
+                        background-color: #5c5c5c;
+                        width: 1px;
+                        vertical-align: middle;
+                        margin-left: 10px;
                     }
                 }
-				.cus {
-					position: relative;
-					&:hover .cus_show {
-					display: block;
-					}
-					.cus_show {
-						display: none;
-						position: absolute;
-						top: 36px;
+
+                .com {
+                    position: relative;
+
+                    &:hover .com_show {
+                        display: block;
+                    }
+
+                    .com_show {
+                        display: none;
+                        position: absolute;
+                        top: 36px;
+                        left: 0;
+                        padding: 0 10px;
+                        background-color: white;
+                        border: 1px solid #ccc;
+
+                        &::after {
+                            content: "";
+                            display: block;
+                            width: 0;
+                            height: 0;
+                            position: absolute;
+                            left: 23px;
+                            top: -20px;
+                            border-top: 10px solid transparent;
+                            border-left: 10px solid transparent;
+                            border-right: 10px solid transparent;
+                            border-bottom: 10px solid #fff;
+                        }
+
+                        a {
+                            display: block;
+                            text-align: center;
+                            line-height: 36px;
+                            border-bottom: 1px solid #ccc;
+
+                            &:hover {
+                                color: #CC9756;
+                            }
+                        }
+                    }
+                }
+
+                .cus {
+                    position: relative;
+
+                    &:hover .cus_show {
+                        display: block;
+                    }
+
+                    .cus_show {
+                        display: none;
+                        position: absolute;
+                        top: 36px;
                         right: 0px;
                         background-color: #fff;
                         border: 1px solid #ccc;
-						&::after {
-							content: "";
-							display: block;
-							width: 0;
-							height: 0;
-							position: absolute;
-							left: 15px;
-							top: -20px;
-							border-top: 10px solid transparent;
-							border-left:10px solid transparent;
-							border-right:10px solid transparent;
-							border-bottom:10px solid #fff;
-						}
-						a{
-							display: block;
-							// font-size: 12px;
-							text-align: center;
-							line-height: 36px;
-							border-bottom:1px solid #ccc;
-							&:hover{
-							color:#CC9756 ;
-							}
-						}
-					}
-				}
-				.APP_QR {
+
+                        &::after {
+                            content: "";
+                            display: block;
+                            width: 0;
+                            height: 0;
+                            position: absolute;
+                            left: 15px;
+                            top: -20px;
+                            border-top: 10px solid transparent;
+                            border-left: 10px solid transparent;
+                            border-right: 10px solid transparent;
+                            border-bottom: 10px solid #fff;
+                        }
+
+                        a {
+                            display: block;
+                            // font-size: 12px;
+                            text-align: center;
+                            line-height: 36px;
+                            border-bottom: 1px solid #ccc;
+
+                            &:hover {
+                                color: #CC9756;
+                            }
+                        }
+                    }
+                }
+
+                .APP_QR {
                     position: relative;
-                    .icon_top{
+
+                    .icon_top {
                         display: inline-block;
                         margin-right: 6px;
                         line-height: 36px;
                         vertical-align: middle;
                         // overflow: hidden;
                         background-image: url(../img/icon-appletop.webp);
-						// background-repeat: no-repeat;
-						background-position-x:0px;
-                        background-position-y:0px; 
+                        // background-repeat: no-repeat;
+                        background-position-x: 0px;
+                        background-position-y: 0px;
                         height: 11px;
                         width: 7px;
                         word-spacing: normal;
                         letter-spacing: normal;
                         z-index: 5;
                     }
+
                     .Apple {
                         display: inline-block;
                         line-height: 36px;
@@ -316,141 +373,219 @@
                         word-spacing: normal;
                         letter-spacing: normal;
                         z-index: 5;
-                    } 
-                    a:hover .img{
-                            display: block;
-                        }
-                        img{
-							display: none;
-							width: 117px;
-                            height: 117px;
-						} 
-					}
-					
-				}
+                    }
+
+                    a:hover .img {
+                        display: block;
+                    }
+
+                    img {
+                        display: none;
+                        width: 117px;
+                        height: 117px;
+                    }
+                }
+
             }
         }
     }
+}
 
-.wy_row{
+.wy_row {
     width: 1090px;
     margin: auto;
     height: 100%;
     // height: 150px;
     margin: 0 auto;
     position: relative;
+
     // background-color: pink;
-    .wy_log{
+    .wy_log {
         display: inline-block;
         background-image: url(../img/icon-appletop.webp);
         background-position-x: 0px;
         background-position-y: -294px;
         height: 60px;
         width: 212px;
-        h2{
+
+        h2 {
             text-indent: -9999px;
         }
     }
-    .wy_search{
-    position: absolute;
-    left: 356px;
-    top: 27px;
-    z-index: 1;
-    display: block;
-    height: 32px;
-    line-height: 32px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    border: 1px solid #CC9756;
-    border-bottom-left-radius: 19px;
-    border-top-left-radius: 19px;
-    font-size: 14px;
-    width: 442px;
-    padding-left: 38px;
-    outline: 0;
-    overflow: hidden;
-    color: #999;
+
+    .wy_search {
+        position: absolute;
+        left: 356px;
+        top: 27px;
+        z-index: 1;
+        display: block;
+        height: 32px;
+        line-height: 32px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        border: 1px solid #CC9756;
+        border-bottom-left-radius: 19px;
+        border-top-left-radius: 19px;
+        font-size: 14px;
+        width: 442px;
+        padding-left: 38px;
+        outline: 0;
+        overflow: hidden;
+        color: #999;
     }
-    .button{
-    width: 90px;
-    height: 38px;
-    background-color: #CC9756;
-    border-top-right-radius: 19px;
-    border-bottom-right-radius: 19px;
-    cursor: pointer;
-    position: absolute;
-    top: 27px;
-    left: 837px;
-    color: #fff;
-    line-height: 38px;
-    text-align: center;
-    font-size: 16px;
-    letter-spacing: 1px;
-    border: none;
-    }
-    .wy_carttop{
-    position: absolute;
-    top:27px ;
-    left:954px ;
-    cursor: pointer;
-    width: 134px;
-    height: 36px;
-    border: 1px solid #CC9756;
-    border-radius: 19px;
-    // padding: 3px 0;
-    .icon_cart{
-    display: inline-block;
-    background-image: url(../img/icon-appletop.webp);
-    background-position: 2px -147px;
-    height: 18px;
-    width: 18px;
-    }
-    span{
-        display: inline-block;
-        padding-left: 30px;
-        height: 36px;
-        line-height: 36px;
+
+    .button {
+        width: 90px;
+        height: 38px;
+        background-color: #CC9756;
+        border-top-right-radius: 19px;
+        border-bottom-right-radius: 19px;
+        cursor: pointer;
+        position: absolute;
+        top: 27px;
+        left: 837px;
+        color: #fff;
+        line-height: 38px;
         text-align: center;
-        color: #cc9756;
+        font-size: 16px;
+        letter-spacing: 1px;
+        border: none;
     }
-    .icon_red{
-    display: inline-block;
-    background-image: url(../img/icon-appletop.webp);
-    background-position: 0px -51px;
-    height: 19px;
-    width: 19px;
-    color: #fff;
+
+    .wy_carttop {
+        position: absolute;
+        top: 27px;
+        left: 954px;
+        cursor: pointer;
+        width: 134px;
+        height: 36px;
+        border: 1px solid #CC9756;
+        border-radius: 19px;
+
+        // padding: 3px 0;
+        .icon_cart {
+            display: inline-block;
+            background-image: url(../img/icon-appletop.webp);
+            background-position: 2px -147px;
+            height: 18px;
+            width: 18px;
+        }
+
+        span {
+            display: inline-block;
+            padding-left: 30px;
+            height: 36px;
+            line-height: 36px;
+            text-align: center;
+            color: #cc9756;
+        }
+
+        .icon_red {
+            display: inline-block;
+            background-image: url(../img/icon-appletop.webp);
+            background-position: 0px -51px;
+            height: 19px;
+            width: 19px;
+            color: #fff;
+        }
     }
-    }     
 }
-.box01{
+
+.box01 {
     width: 1090px;
     margin: auto;
     margin-top: 50px;
     overflow: hidden;
     background-color: #fff;
-    .li_nav{
+
+    .li_nav {
+        overflow: hidden;
         width: 1200px;
-        a{
+
+        a {
+            display: block;
             float: left;
             padding-right: 52px;
             font-size: 14px;
             font-weight: bold;
-            li{
+
+            .yellow {
+                color: #cc9756;
+                border-bottom: 3px solid #cc9756;
+            }
+
+            li {
                 padding-bottom: 5px;
                 border-bottom: 3px solid #fff;
                 // border-bottom: 3px solid #cc9756;
+
             }
-             &:hover li{
+
+            &:hover li {
                 color: #cc9756;
                 border-bottom: 3px solid #cc9756;
 
-             }
+            }
         }
-    
+
     }
 }
 
-    
+.navTop {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 174px;
+    padding: -1px 20px 20px;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    display: none;
+    z-index: 99;
 
+    .navBox {
+        display: flex;
+        justify-content: center;
+        // border: 1px solid rgba(0, 0, 0, .1);
 
+        ul {
+            float: left;
+            background-color: #fff;
+            // width: 200px;
+            padding: 0 10px;
+
+            h3 {
+                // width: 124px;
+                padding-top: 5px;
+                line-height: 36px;
+                font-size: 16px;
+                font-weight: 700;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            }
+
+            li {
+                margin-bottom: 5px;
+
+                img {
+                    width: 50px;
+                    height: 50px;
+                    margin-left: 10px;
+                }
+
+                span {
+                    font-size: 12px;
+                    vertical-align: middle;
+
+                    &:hover {
+                        color: #CC9756;
+                    }
+
+                }
+            }
+
+        }
+    }
+}
+
+.show {
+    display: block;
+}
