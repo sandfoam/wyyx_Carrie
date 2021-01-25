@@ -112,20 +112,23 @@
         text-align: center;
         height: 30px;
         width: 36px;
-        border-right: 1px solid #ccc; }
+        border-right: 1px solid #ccc;
+        cursor: pointer; }
       .main .detail .number .num_box .num_n {
         display: inline-block;
         line-height: 28px;
         text-align: center;
         height: 30px;
         width: 60px;
-        border-right: 1px solid #ccc; }
+        border-right: 1px solid #ccc;
+        cursor: pointer; }
       .main .detail .number .num_box .num_more {
         display: inline-block;
         line-height: 28px;
         text-align: center;
         height: 30px;
-        width: 29px; }
+        width: 29px;
+        cursor: pointer; }
   .main .detail .btn_box {
     margin-top: 20px; }
     .main .detail .btn_box .buy {
