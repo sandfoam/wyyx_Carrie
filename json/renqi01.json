@@ -1,0 +1,852 @@
+{
+    "popularItemList": [
+        {
+          "scenePicUrl": "https://yanxuan-item.nosdn.127.net/e8f75cc53b9b865e9d5e1a7dfd03d6fd.jpg",
+          "primarySkuPreSellPrice": 0,
+          "recommendDesc": "留香小心机从洗衣开始",
+          "promTag": "品类狂欢",
+          "showPicUrl": "https://yanxuan-item.nosdn.127.net/4313d868515b46f5d2d04c2e556fdce6.png",
+          "itemTagList": [
+            {
+              "itemId": 3989066,
+              "tagId": 128385043,
+              "freshmanExclusive": false,
+              "name": "品类狂欢",
+              "appFreshmanBargain": false,
+              "subType": 204,
+              "forbidJump": false,
+              "type": 2
+            }
+          ],
+          "primarySkuPreSellStatus": 0,
+          "listPromBanner": {
+            "valid": true,
+            "styleType": 1,
+            "bannerContentUrl": "https://yanxuan.nosdn.127.net/c168892ef76f29971032dc1c12613720.png",
+            "promoTitle": "品类狂欢",
+            "promoSubTitle": "¥49.9",
+            "timeType": 0,
+            "bannerTitleUrl": "https://yanxuan.nosdn.127.net/d71e2460d062eaa21d5bdf97eba9da89.png",
+            "content": "仅剩2天"
+          },
+          "id": 3989066,
+          "sellVolume": 41842,
+          "colorNum": 0,
+          "primaryPicUrl": "https://yanxuan-item.nosdn.127.net/4313d868515b46f5d2d04c2e556fdce6.png",
+          "promLogo": {
+            "width": 48,
+            "logoUrl": "http://yanxuan.nosdn.127.net/00a45bb1e4c2cca479dd9c939cb162e1.png",
+            "height": 48
+          },
+          "name": "48小时留香 香氛浓缩洗衣凝珠375g",
+          "status": 2,
+          "goodCmtCount": 0,
+          "listPicUrl": "https://yanxuan-item.nosdn.127.net/712ed065d6c7db0af60a72354ff61445.png",
+          "tagId": 0,
+          "simpleDesc": "留香小心机从洗衣开始",
+          "primaryFlag": true,
+          "limitedFlag": 204,
+          "newItemFlag": false,
+          "pieceNum": 0,
+          "extra": {
+            "modelType": 3
+          },
+          "displaySkuId": 300247540,
+          "pieceUnitDesc": "件",
+          "featuredSeries": {
+            "showFeatureSeriesNameFlag": false,
+            "seriesDesc": "专属味道标记品质生活",
+            "name": "感官之息系列",
+            "videoShowPicUrl": "https://yanxuan.nosdn.127.net/2684126f03bb486de47f6b0b9843c62e.jpg",
+            "iconUrl": "https://yanxuan.nosdn.127.net/c1fa9b503e33e20415e0f55c773020e6.jpg",
+            "id": 1000119,
+            "seriesStory": "释放嗅觉感官，让空间变得愉悦、有活力。",
+            "detailPicUrl": "https://yanxuan.nosdn.127.net/c1ebee7d275ee8098b0a4ef6b832b0fe.jpg"
+          },
+          "discountFlag": false,
+          "productPlace": "",
+          "counterPrice": 59.00,
+          "cutFlag": false,
+          "retailPrice": 49.9
+        },
+        {
+          "scenePicUrl": "https://yanxuan-item.nosdn.127.net/7eab37e87c21d7a71a2ff637b7d7e910.png",
+          "primarySkuPreSellPrice": 0,
+          "recommendDesc": "蓝山风味三合一，香醇无酸",
+          "showPicUrl": "https://yanxuan-item.nosdn.127.net/97729ac86146500533e8b8c5ec7658de.png",
+          "itemTagList": [
+            
+          ],
+          "primarySkuPreSellStatus": 0,
+          "id": 3989310,
+          "sellVolume": 6249,
+          "colorNum": 0,
+          "primaryPicUrl": "https://yanxuan-item.nosdn.127.net/97729ac86146500533e8b8c5ec7658de.png",
+          "promLogo": {
+            "width": 48,
+            "logoUrl": "http://yanxuan.nosdn.127.net/00a45bb1e4c2cca479dd9c939cb162e1.png",
+            "height": 48
+          },
+          "name": "牛奶咖啡交融 马来西亚蓝山风味白咖啡40条",
+          "status": 2,
+          "goodCmtCount": 0,
+          "listPicUrl": "https://yanxuan-item.nosdn.127.net/c888ee0542f194262ac868950e9141eb.png",
+          "tagId": 0,
+          "simpleDesc": "蓝山风味三合一，香醇无酸",
+          "primaryFlag": true,
+          "limitedFlag": 0,
+          "newItemFlag": false,
+          "pieceNum": 0,
+          "extra": {
+            "modelType": 3
+          },
+          "displaySkuId": 300203323,
+          "pieceUnitDesc": "件",
+          "discountFlag": false,
+          "productPlace": "马来西亚制造",
+          "cutFlag": false,
+          "retailPrice": 39.90
+        },
+        {
+          "scenePicUrl": "https://yanxuan-item.nosdn.127.net/5a7e0c73b731f5c18941697dc7e1b522.jpg",
+          "primarySkuPreSellPrice": 0,
+          "recommendDesc": "香浓蛋味 入口即化",
+          "showPicUrl": "https://yanxuan-item.nosdn.127.net/39e5df244905c79abf947fb4a534699d.png",
+          "itemTagList": [
+            {
+              "itemId": 1321000,
+              "tagId": 128372255,
+              "freshmanExclusive": false,
+              "name": "99选9",
+              "appFreshmanBargain": false,
+              "subType": 106,
+              "forbidJump": false,
+              "type": 2
+            }
+          ],
+          "primarySkuPreSellStatus": 0,
+          "listPromBanner": {
+            "valid": true,
+            "styleType": 1,
+            "bannerContentUrl": "https://yanxuan.nosdn.127.net/c168892ef76f29971032dc1c12613720.png",
+            "promoTitle": "",
+            "promoSubTitle": "",
+            "timeType": 0,
+            "bannerTitleUrl": "https://yanxuan.nosdn.127.net/d71e2460d062eaa21d5bdf97eba9da89.png",
+            "content": "99元任选9件"
+          },
+          "id": 1321000,
+          "sellVolume": 10373,
+          "colorNum": 0,
+          "primaryPicUrl": "https://yanxuan-item.nosdn.127.net/39e5df244905c79abf947fb4a534699d.png",
+          "promLogo": {
+            "width": 48,
+            "logoUrl": "http://yanxuan.nosdn.127.net/00a45bb1e4c2cca479dd9c939cb162e1.png",
+            "height": 48
+          },
+          "name": "奶油鸡蛋卷 150克（5袋）",
+          "status": 2,
+          "goodCmtCount": 0,
+          "listPicUrl": "https://yanxuan-item.nosdn.127.net/33dde8d152e73340f19d0364b4215210.png",
+          "tagId": 0,
+          "simpleDesc": "香浓蛋味 入口即化",
+          "primaryFlag": true,
+          "limitedFlag": 0,
+          "newItemFlag": false,
+          "pieceNum": 0,
+          "extra": {
+            "modelType": 3
+          },
+          "displaySkuId": 1447057,
+          "pieceUnitDesc": "件",
+          "discountFlag": false,
+          "productPlace": "",
+          "cutFlag": false,
+          "retailPrice": 18.00
+        },
+        {
+          "scenePicUrl": "https://yanxuan-item.nosdn.127.net/eabe47e8ec2f0079cbba44a0061a555f.jpg",
+          "primarySkuPreSellPrice": 0,
+          "recommendDesc": "整份热量低于350kcal，减少热量摄入不减美好风味",
+          "promTag": "新人特价",
+          "showPicUrl": "https://yanxuan-item.nosdn.127.net/1b9d4e66a7e8f5789a6582beb34dfb4f.png",
+          "itemTagList": [
+            {
+              "itemId": 3992014,
+              "tagId": 128361138,
+              "freshmanExclusive": false,
+              "name": "新人特价",
+              "appFreshmanBargain": false,
+              "subType": 204,
+              "forbidJump": false,
+              "type": 2
+            }
+          ],
+          "primarySkuPreSellStatus": 0,
+          "listPromBanner": {
+            "valid": true,
+            "styleType": 1,
+            "bannerContentUrl": "https://yanxuan.nosdn.127.net/c168892ef76f29971032dc1c12613720.png",
+            "promoTitle": "新人特价",
+            "promoSubTitle": "¥87",
+            "timeType": 0,
+            "bannerTitleUrl": "https://yanxuan.nosdn.127.net/d71e2460d062eaa21d5bdf97eba9da89.png",
+            "content": "正在抢购中"
+          },
+          "id": 3992014,
+          "sellVolume": 2335,
+          "colorNum": 0,
+          "primaryPicUrl": "https://yanxuan-item.nosdn.127.net/1b9d4e66a7e8f5789a6582beb34dfb4f.png",
+          "promLogo": {
+            "width": 48,
+            "logoUrl": "http://yanxuan.nosdn.127.net/00a45bb1e4c2cca479dd9c939cb162e1.png",
+            "height": 48
+          },
+          "name": "意面革命，好吃不胖，3分钟即食意面 6盒装",
+          "status": 2,
+          "goodCmtCount": 0,
+          "listPicUrl": "https://yanxuan-item.nosdn.127.net/1b9d4e66a7e8f5789a6582beb34dfb4f.png",
+          "tagId": 0,
+          "simpleDesc": "整份热量低于350kcal，减少热量摄入不减美好风味",
+          "primaryFlag": true,
+          "limitedFlag": 204,
+          "newItemFlag": false,
+          "pieceNum": 0,
+          "extra": {
+            "modelType": 3
+          },
+          "displaySkuId": 300279902,
+          "pieceUnitDesc": "件",
+          "featuredSeries": {
+            "showFeatureSeriesNameFlag": false,
+            "seriesDesc": "健康轻食系列",
+            "name": "健康轻食系列",
+            "videoShowPicUrl": "https://yanxuan.nosdn.127.net/c493e0b93bfa59324021a24491517910.png",
+            "iconUrl": "https://yanxuan.nosdn.127.net/54cae18c63f0f9eb9ac2819ac910ebb2.png",
+            "id": 1000120,
+            "seriesStory": "低卡低脂低糖，符合现代人健康饮食需求。",
+            "detailPicUrl": "https://yanxuan.nosdn.127.net/cd83115efc01bbcb5dd8478f25958236.png"
+          },
+          "discountFlag": false,
+          "productPlace": "3个口味",
+          "counterPrice": 106.00,
+          "cutFlag": false,
+          "retailPrice": 87
+        },
+        {
+          "scenePicUrl": "https://yanxuan-item.nosdn.127.net/de5314a7eb797caac771c36d08ce6730.jpg",
+          "primarySkuPreSellPrice": 0,
+          "recommendDesc": "清甜不腻，自然果香",
+          "showPicUrl": "https://yanxuan-item.nosdn.127.net/6c4273b3a02e49e0e775d8d99a832d35.png",
+          "itemTagList": [
+            {
+              "itemId": 1056006,
+              "tagId": 128372255,
+              "freshmanExclusive": false,
+              "name": "99选9",
+              "appFreshmanBargain": false,
+              "subType": 106,
+              "forbidJump": false,
+              "type": 2
+            }
+          ],
+          "primarySkuPreSellStatus": 0,
+          "listPromBanner": {
+            "valid": true,
+            "styleType": 1,
+            "bannerContentUrl": "https://yanxuan.nosdn.127.net/c168892ef76f29971032dc1c12613720.png",
+            "promoTitle": "",
+            "promoSubTitle": "",
+            "timeType": 0,
+            "bannerTitleUrl": "https://yanxuan.nosdn.127.net/d71e2460d062eaa21d5bdf97eba9da89.png",
+            "content": "99元任选9件"
+          },
+          "id": 1056006,
+          "sellVolume": 15801,
+          "colorNum": 0,
+          "primaryPicUrl": "https://yanxuan-item.nosdn.127.net/6c4273b3a02e49e0e775d8d99a832d35.png",
+          "promLogo": {
+            "width": 48,
+            "logoUrl": "http://yanxuan.nosdn.127.net/00a45bb1e4c2cca479dd9c939cb162e1.png",
+            "height": 48
+          },
+          "name": "一口咬到阳光的味道，芒果干",
+          "status": 2,
+          "goodCmtCount": 0,
+          "listPicUrl": "https://yanxuan-item.nosdn.127.net/6c4273b3a02e49e0e775d8d99a832d35.png",
+          "tagId": 0,
+          "simpleDesc": "清甜不腻，自然果香",
+          "primaryFlag": true,
+          "limitedFlag": 0,
+          "newItemFlag": false,
+          "pieceNum": 0,
+          "extra": {
+            "modelType": 3
+          },
+          "displaySkuId": 1137064,
+          "pieceUnitDesc": "件",
+          "discountFlag": false,
+          "productPlace": "",
+          "cutFlag": false,
+          "retailPrice": 16.00
+        },
+        {
+          "scenePicUrl": "https://yanxuan-item.nosdn.127.net/dacdbc7472cedd098c25897446b9a5af.png",
+          "primarySkuPreSellPrice": 0,
+          "recommendDesc": "瞬吸快干，源自阿瓦提的干爽柔软",
+          "promTag": "年货狂欢价",
+          "showPicUrl": "https://yanxuan-item.nosdn.127.net/465b05dad2646b8e5d84b5e44b1c0a23.png",
+          "itemTagList": [
+            {
+              "itemId": 3995417,
+              "tagId": 128356032,
+              "freshmanExclusive": false,
+              "name": "年货狂欢价",
+              "appFreshmanBargain": false,
+              "subType": 204,
+              "forbidJump": false,
+              "type": 2
+            }
+          ],
+          "primarySkuPreSellStatus": 0,
+          "listPromBanner": {
+            "valid": true,
+            "styleType": 1,
+            "bannerContentUrl": "https://yanxuan.nosdn.127.net/c168892ef76f29971032dc1c12613720.png",
+            "promoTitle": "年货狂欢价",
+            "promoSubTitle": "¥18",
+            "timeType": 0,
+            "bannerTitleUrl": "https://yanxuan.nosdn.127.net/d71e2460d062eaa21d5bdf97eba9da89.png",
+            "content": "正在抢购中"
+          },
+          "id": 3995417,
+          "sellVolume": 2975,
+          "colorNum": 0,
+          "primaryPicUrl": "https://yanxuan-item.nosdn.127.net/465b05dad2646b8e5d84b5e44b1c0a23.png",
+          "promLogo": {
+            "width": 48,
+            "logoUrl": "http://yanxuan.nosdn.127.net/00a45bb1e4c2cca479dd9c939cb162e1.png",
+            "height": 48
+          },
+          "name": "简约居家的生活美学，阿瓦提长绒棉毛巾",
+          "status": 2,
+          "goodCmtCount": 0,
+          "listPicUrl": "https://yanxuan-item.nosdn.127.net/07c672534fddae0a3d6a6d037fbe0d4f.png",
+          "tagId": 0,
+          "simpleDesc": "瞬吸快干，源自阿瓦提的干爽柔软",
+          "primaryFlag": true,
+          "limitedFlag": 204,
+          "newItemFlag": false,
+          "pieceNum": 0,
+          "extra": {
+            "modelType": 3
+          },
+          "displaySkuId": 300246753,
+          "pieceUnitDesc": "件",
+          "discountFlag": false,
+          "productPlace": "",
+          "counterPrice": 23.00,
+          "cutFlag": false,
+          "retailPrice": 18
+        },
+        {
+          "scenePicUrl": "https://yanxuan-item.nosdn.127.net/dcc38bdee0a0930f668f57745ab2716d.jpg",
+          "primarySkuPreSellPrice": 0,
+          "recommendDesc": "蛋黄绵密，砂硕口感",
+          "showPicUrl": "https://yanxuan-item.nosdn.127.net/6b9d93eae44995e560bcaf9154becee4.png",
+          "itemTagList": [
+            {
+              "itemId": 3989166,
+              "tagId": 128372255,
+              "freshmanExclusive": false,
+              "name": "99选9",
+              "appFreshmanBargain": false,
+              "subType": 106,
+              "forbidJump": false,
+              "type": 2
+            }
+          ],
+          "primarySkuPreSellStatus": 0,
+          "listPromBanner": {
+            "valid": true,
+            "styleType": 1,
+            "bannerContentUrl": "https://yanxuan.nosdn.127.net/c168892ef76f29971032dc1c12613720.png",
+            "promoTitle": "",
+            "promoSubTitle": "",
+            "timeType": 0,
+            "bannerTitleUrl": "https://yanxuan.nosdn.127.net/d71e2460d062eaa21d5bdf97eba9da89.png",
+            "content": "99元任选9件"
+          },
+          "id": 3989166,
+          "sellVolume": 11205,
+          "colorNum": 0,
+          "primaryPicUrl": "https://yanxuan-item.nosdn.127.net/6b9d93eae44995e560bcaf9154becee4.png",
+          "promLogo": {
+            "width": 48,
+            "logoUrl": "http://yanxuan.nosdn.127.net/00a45bb1e4c2cca479dd9c939cb162e1.png",
+            "height": 48
+          },
+          "name": "惊喜藏在蛋黄里，翻砂卤蛋 245克",
+          "status": 2,
+          "goodCmtCount": 0,
+          "listPicUrl": "https://yanxuan-item.nosdn.127.net/28074c36ae92a7390b7ed67d4d3a1c49.png",
+          "tagId": 0,
+          "simpleDesc": "蛋黄绵密，砂硕口感",
+          "primaryFlag": true,
+          "limitedFlag": 0,
+          "newItemFlag": false,
+          "pieceNum": 0,
+          "extra": {
+            "modelType": 3
+          },
+          "displaySkuId": 300201744,
+          "pieceUnitDesc": "件",
+          "discountFlag": false,
+          "productPlace": "",
+          "cutFlag": false,
+          "retailPrice": 18.00
+        }
+      ],
+      "oneDayHotSellList": [
+        {
+          "scenePicUrl": "https://yanxuan-item.nosdn.127.net/e8f75cc53b9b865e9d5e1a7dfd03d6fd.jpg",
+          "primarySkuPreSellPrice": 0,
+          "recommendDesc": "留香小心机从洗衣开始",
+          "promTag": "品类狂欢",
+          "showPicUrl": "https://yanxuan-item.nosdn.127.net/4313d868515b46f5d2d04c2e556fdce6.png",
+          "itemTagList": [
+            {
+              "itemId": 3989066,
+              "tagId": 128385043,
+              "freshmanExclusive": false,
+              "name": "品类狂欢",
+              "appFreshmanBargain": false,
+              "subType": 204,
+              "forbidJump": false,
+              "type": 2
+            }
+          ],
+          "primarySkuPreSellStatus": 0,
+          "listPromBanner": {
+            "valid": true,
+            "styleType": 1,
+            "bannerContentUrl": "https://yanxuan.nosdn.127.net/c168892ef76f29971032dc1c12613720.png",
+            "promoTitle": "品类狂欢",
+            "promoSubTitle": "¥49.9",
+            "timeType": 0,
+            "bannerTitleUrl": "https://yanxuan.nosdn.127.net/d71e2460d062eaa21d5bdf97eba9da89.png",
+            "content": "仅剩2天"
+          },
+          "id": 3989066,
+          "sellVolume": 41842,
+          "colorNum": 0,
+          "primaryPicUrl": "https://yanxuan-item.nosdn.127.net/4313d868515b46f5d2d04c2e556fdce6.png",
+          "promLogo": {
+            "width": 48,
+            "logoUrl": "http://yanxuan.nosdn.127.net/00a45bb1e4c2cca479dd9c939cb162e1.png",
+            "height": 48
+          },
+          "name": "48小时留香 香氛浓缩洗衣凝珠375g",
+          "status": 2,
+          "goodCmtCount": 0,
+          "listPicUrl": "https://yanxuan-item.nosdn.127.net/712ed065d6c7db0af60a72354ff61445.png",
+          "tagId": 0,
+          "simpleDesc": "留香小心机从洗衣开始",
+          "primaryFlag": true,
+          "limitedFlag": 204,
+          "newItemFlag": false,
+          "pieceNum": 0,
+          "extra": {
+            "modelType": 3
+          },
+          "displaySkuId": 300247540,
+          "pieceUnitDesc": "件",
+          "featuredSeries": {
+            "showFeatureSeriesNameFlag": false,
+            "seriesDesc": "专属味道标记品质生活",
+            "name": "感官之息系列",
+            "videoShowPicUrl": "https://yanxuan.nosdn.127.net/2684126f03bb486de47f6b0b9843c62e.jpg",
+            "iconUrl": "https://yanxuan.nosdn.127.net/c1fa9b503e33e20415e0f55c773020e6.jpg",
+            "id": 1000119,
+            "seriesStory": "释放嗅觉感官，让空间变得愉悦、有活力。",
+            "detailPicUrl": "https://yanxuan.nosdn.127.net/c1ebee7d275ee8098b0a4ef6b832b0fe.jpg"
+          },
+          "discountFlag": false,
+          "productPlace": "",
+          "counterPrice": 59.00,
+          "cutFlag": false,
+          "retailPrice": 49.9
+        },
+        {
+          "scenePicUrl": "https://yanxuan-item.nosdn.127.net/7eab37e87c21d7a71a2ff637b7d7e910.png",
+          "primarySkuPreSellPrice": 0,
+          "recommendDesc": "蓝山风味三合一，香醇无酸",
+          "showPicUrl": "https://yanxuan-item.nosdn.127.net/97729ac86146500533e8b8c5ec7658de.png",
+          "itemTagList": [
+            
+          ],
+          "primarySkuPreSellStatus": 0,
+          "id": 3989310,
+          "sellVolume": 6249,
+          "colorNum": 0,
+          "primaryPicUrl": "https://yanxuan-item.nosdn.127.net/97729ac86146500533e8b8c5ec7658de.png",
+          "promLogo": {
+            "width": 48,
+            "logoUrl": "http://yanxuan.nosdn.127.net/00a45bb1e4c2cca479dd9c939cb162e1.png",
+            "height": 48
+          },
+          "name": "牛奶咖啡交融 马来西亚蓝山风味白咖啡40条",
+          "status": 2,
+          "goodCmtCount": 0,
+          "listPicUrl": "https://yanxuan-item.nosdn.127.net/c888ee0542f194262ac868950e9141eb.png",
+          "tagId": 0,
+          "simpleDesc": "蓝山风味三合一，香醇无酸",
+          "primaryFlag": true,
+          "limitedFlag": 0,
+          "newItemFlag": false,
+          "pieceNum": 0,
+          "extra": {
+            "modelType": 3
+          },
+          "displaySkuId": 300203323,
+          "pieceUnitDesc": "件",
+          "discountFlag": false,
+          "productPlace": "马来西亚制造",
+          "cutFlag": false,
+          "retailPrice": 39.90
+        },
+        {
+          "scenePicUrl": "https://yanxuan-item.nosdn.127.net/5a7e0c73b731f5c18941697dc7e1b522.jpg",
+          "primarySkuPreSellPrice": 0,
+          "recommendDesc": "香浓蛋味 入口即化",
+          "showPicUrl": "https://yanxuan-item.nosdn.127.net/39e5df244905c79abf947fb4a534699d.png",
+          "itemTagList": [
+            {
+              "itemId": 1321000,
+              "tagId": 128372255,
+              "freshmanExclusive": false,
+              "name": "99选9",
+              "appFreshmanBargain": false,
+              "subType": 106,
+              "forbidJump": false,
+              "type": 2
+            }
+          ],
+          "primarySkuPreSellStatus": 0,
+          "listPromBanner": {
+            "valid": true,
+            "styleType": 1,
+            "bannerContentUrl": "https://yanxuan.nosdn.127.net/c168892ef76f29971032dc1c12613720.png",
+            "promoTitle": "",
+            "promoSubTitle": "",
+            "timeType": 0,
+            "bannerTitleUrl": "https://yanxuan.nosdn.127.net/d71e2460d062eaa21d5bdf97eba9da89.png",
+            "content": "99元任选9件"
+          },
+          "id": 1321000,
+          "sellVolume": 10373,
+          "colorNum": 0,
+          "primaryPicUrl": "https://yanxuan-item.nosdn.127.net/39e5df244905c79abf947fb4a534699d.png",
+          "promLogo": {
+            "width": 48,
+            "logoUrl": "http://yanxuan.nosdn.127.net/00a45bb1e4c2cca479dd9c939cb162e1.png",
+            "height": 48
+          },
+          "name": "奶油鸡蛋卷 150克（5袋）",
+          "status": 2,
+          "goodCmtCount": 0,
+          "listPicUrl": "https://yanxuan-item.nosdn.127.net/33dde8d152e73340f19d0364b4215210.png",
+          "tagId": 0,
+          "simpleDesc": "香浓蛋味 入口即化",
+          "primaryFlag": true,
+          "limitedFlag": 0,
+          "newItemFlag": false,
+          "pieceNum": 0,
+          "extra": {
+            "modelType": 3
+          },
+          "displaySkuId": 1447057,
+          "pieceUnitDesc": "件",
+          "discountFlag": false,
+          "productPlace": "",
+          "cutFlag": false,
+          "retailPrice": 18.00
+        },
+        {
+          "scenePicUrl": "https://yanxuan-item.nosdn.127.net/eabe47e8ec2f0079cbba44a0061a555f.jpg",
+          "primarySkuPreSellPrice": 0,
+          "recommendDesc": "整份热量低于350kcal，减少热量摄入不减美好风味",
+          "promTag": "新人特价",
+          "showPicUrl": "https://yanxuan-item.nosdn.127.net/8352c23d2f4df74933f0e0b655b10ede.png",
+          "itemTagList": [
+            {
+              "itemId": 3992014,
+              "tagId": 128361138,
+              "freshmanExclusive": false,
+              "name": "新人特价",
+              "appFreshmanBargain": false,
+              "subType": 204,
+              "forbidJump": false,
+              "type": 2
+            }
+          ],
+          "primarySkuPreSellStatus": 0,
+          "listPromBanner": {
+            "valid": true,
+            "styleType": 1,
+            "bannerContentUrl": "https://yanxuan.nosdn.127.net/c168892ef76f29971032dc1c12613720.png",
+            "promoTitle": "新人特价",
+            "promoSubTitle": "¥87",
+            "timeType": 0,
+            "bannerTitleUrl": "https://yanxuan.nosdn.127.net/d71e2460d062eaa21d5bdf97eba9da89.png",
+            "content": "正在抢购中"
+          },
+          "id": 3992014,
+          "sellVolume": 2335,
+          "colorNum": 0,
+          "primaryPicUrl": "https://yanxuan-item.nosdn.127.net/1b9d4e66a7e8f5789a6582beb34dfb4f.png",
+          "promLogo": {
+            "width": 48,
+            "logoUrl": "http://yanxuan.nosdn.127.net/00a45bb1e4c2cca479dd9c939cb162e1.png",
+            "height": 48
+          },
+          "name": "意面革命，好吃不胖，3分钟即食意面 6盒装",
+          "status": 2,
+          "goodCmtCount": 0,
+          "listPicUrl": "https://yanxuan-item.nosdn.127.net/1b9d4e66a7e8f5789a6582beb34dfb4f.png",
+          "tagId": 0,
+          "simpleDesc": "整份热量低于350kcal，减少热量摄入不减美好风味",
+          "primaryFlag": true,
+          "limitedFlag": 204,
+          "newItemFlag": false,
+          "pieceNum": 0,
+          "extra": {
+            "modelType": 3
+          },
+          "displaySkuId": 300279902,
+          "pieceUnitDesc": "件",
+          "featuredSeries": {
+            "showFeatureSeriesNameFlag": false,
+            "seriesDesc": "健康轻食系列",
+            "name": "健康轻食系列",
+            "videoShowPicUrl": "https://yanxuan.nosdn.127.net/c493e0b93bfa59324021a24491517910.png",
+            "iconUrl": "https://yanxuan.nosdn.127.net/54cae18c63f0f9eb9ac2819ac910ebb2.png",
+            "id": 1000120,
+            "seriesStory": "低卡低脂低糖，符合现代人健康饮食需求。",
+            "detailPicUrl": "https://yanxuan.nosdn.127.net/cd83115efc01bbcb5dd8478f25958236.png"
+          },
+          "discountFlag": false,
+          "productPlace": "3个口味",
+          "counterPrice": 106.00,
+          "cutFlag": false,
+          "retailPrice": 87
+        },
+        {
+          "scenePicUrl": "https://yanxuan-item.nosdn.127.net/de5314a7eb797caac771c36d08ce6730.jpg",
+          "primarySkuPreSellPrice": 0,
+          "recommendDesc": "清甜不腻，自然果香",
+          "showPicUrl": "https://yanxuan-item.nosdn.127.net/f608f7868d43c5ac67fc03189b07c589.png",
+          "itemTagList": [
+            {
+              "itemId": 1056006,
+              "tagId": 128372255,
+              "freshmanExclusive": false,
+              "name": "99选9",
+              "appFreshmanBargain": false,
+              "subType": 106,
+              "forbidJump": false,
+              "type": 2
+            }
+          ],
+          "primarySkuPreSellStatus": 0,
+          "listPromBanner": {
+            "valid": true,
+            "styleType": 1,
+            "bannerContentUrl": "https://yanxuan.nosdn.127.net/c168892ef76f29971032dc1c12613720.png",
+            "promoTitle": "",
+            "promoSubTitle": "",
+            "timeType": 0,
+            "bannerTitleUrl": "https://yanxuan.nosdn.127.net/d71e2460d062eaa21d5bdf97eba9da89.png",
+            "content": "99元任选9件"
+          },
+          "id": 1056006,
+          "sellVolume": 15801,
+          "colorNum": 0,
+          "primaryPicUrl": "https://yanxuan-item.nosdn.127.net/6c4273b3a02e49e0e775d8d99a832d35.png",
+          "promLogo": {
+            "width": 48,
+            "logoUrl": "http://yanxuan.nosdn.127.net/00a45bb1e4c2cca479dd9c939cb162e1.png",
+            "height": 48
+          },
+          "name": "一口咬到阳光的味道，芒果干",
+          "status": 2,
+          "goodCmtCount": 0,
+          "listPicUrl": "https://yanxuan-item.nosdn.127.net/6c4273b3a02e49e0e775d8d99a832d35.png",
+          "tagId": 0,
+          "simpleDesc": "清甜不腻，自然果香",
+          "primaryFlag": true,
+          "limitedFlag": 0,
+          "newItemFlag": false,
+          "pieceNum": 0,
+          "extra": {
+            "modelType": 3
+          },
+          "displaySkuId": 1137064,
+          "pieceUnitDesc": "件",
+          "discountFlag": false,
+          "productPlace": "",
+          "cutFlag": false,
+          "retailPrice": 16.00
+        },
+        {
+          "scenePicUrl": "https://yanxuan-item.nosdn.127.net/dacdbc7472cedd098c25897446b9a5af.png",
+          "primarySkuPreSellPrice": 0,
+          "recommendDesc": "瞬吸快干，源自阿瓦提的干爽柔软",
+          "promTag": "年货狂欢价",
+          "showPicUrl": "https://yanxuan-item.nosdn.127.net/465b05dad2646b8e5d84b5e44b1c0a23.png",
+          "itemTagList": [
+            {
+              "itemId": 3995417,
+              "tagId": 128356032,
+              "freshmanExclusive": false,
+              "name": "年货狂欢价",
+              "appFreshmanBargain": false,
+              "subType": 204,
+              "forbidJump": false,
+              "type": 2
+            }
+          ],
+          "primarySkuPreSellStatus": 0,
+          "listPromBanner": {
+            "valid": true,
+            "styleType": 1,
+            "bannerContentUrl": "https://yanxuan.nosdn.127.net/c168892ef76f29971032dc1c12613720.png",
+            "promoTitle": "年货狂欢价",
+            "promoSubTitle": "¥18",
+            "timeType": 0,
+            "bannerTitleUrl": "https://yanxuan.nosdn.127.net/d71e2460d062eaa21d5bdf97eba9da89.png",
+            "content": "正在抢购中"
+          },
+          "id": 3995417,
+          "sellVolume": 2975,
+          "colorNum": 0,
+          "primaryPicUrl": "https://yanxuan-item.nosdn.127.net/465b05dad2646b8e5d84b5e44b1c0a23.png",
+          "promLogo": {
+            "width": 48,
+            "logoUrl": "http://yanxuan.nosdn.127.net/00a45bb1e4c2cca479dd9c939cb162e1.png",
+            "height": 48
+          },
+          "name": "简约居家的生活美学，阿瓦提长绒棉毛巾",
+          "status": 2,
+          "goodCmtCount": 0,
+          "listPicUrl": "https://yanxuan-item.nosdn.127.net/07c672534fddae0a3d6a6d037fbe0d4f.png",
+          "tagId": 0,
+          "simpleDesc": "瞬吸快干，源自阿瓦提的干爽柔软",
+          "primaryFlag": true,
+          "limitedFlag": 204,
+          "newItemFlag": false,
+          "pieceNum": 0,
+          "extra": {
+            "modelType": 3
+          },
+          "displaySkuId": 300246753,
+          "pieceUnitDesc": "件",
+          "discountFlag": false,
+          "productPlace": "",
+          "counterPrice": 23.00,
+          "cutFlag": false,
+          "retailPrice": 18
+        },
+        {
+          "scenePicUrl": "https://yanxuan-item.nosdn.127.net/dcc38bdee0a0930f668f57745ab2716d.jpg",
+          "primarySkuPreSellPrice": 0,
+          "recommendDesc": "蛋黄绵密，砂硕口感",
+          "showPicUrl": "https://yanxuan-item.nosdn.127.net/6b9d93eae44995e560bcaf9154becee4.png",
+          "itemTagList": [
+            {
+              "itemId": 3989166,
+              "tagId": 128372255,
+              "freshmanExclusive": false,
+              "name": "99选9",
+              "appFreshmanBargain": false,
+              "subType": 106,
+              "forbidJump": false,
+              "type": 2
+            }
+          ],
+          "primarySkuPreSellStatus": 0,
+          "listPromBanner": {
+            "valid": true,
+            "styleType": 1,
+            "bannerContentUrl": "https://yanxuan.nosdn.127.net/c168892ef76f29971032dc1c12613720.png",
+            "promoTitle": "",
+            "promoSubTitle": "",
+            "timeType": 0,
+            "bannerTitleUrl": "https://yanxuan.nosdn.127.net/d71e2460d062eaa21d5bdf97eba9da89.png",
+            "content": "99元任选9件"
+          },
+          "id": 3989166,
+          "sellVolume": 11205,
+          "colorNum": 0,
+          "primaryPicUrl": "https://yanxuan-item.nosdn.127.net/6b9d93eae44995e560bcaf9154becee4.png",
+          "promLogo": {
+            "width": 48,
+            "logoUrl": "http://yanxuan.nosdn.127.net/00a45bb1e4c2cca479dd9c939cb162e1.png",
+            "height": 48
+          },
+          "name": "惊喜藏在蛋黄里，翻砂卤蛋 245克",
+          "status": 2,
+          "goodCmtCount": 0,
+          "listPicUrl": "https://yanxuan-item.nosdn.127.net/28074c36ae92a7390b7ed67d4d3a1c49.png",
+          "tagId": 0,
+          "simpleDesc": "蛋黄绵密，砂硕口感",
+          "primaryFlag": true,
+          "limitedFlag": 0,
+          "newItemFlag": false,
+          "pieceNum": 0,
+          "extra": {
+            "modelType": 3
+          },
+          "displaySkuId": 300201744,
+          "pieceUnitDesc": "件",
+          "discountFlag": false,
+          "productPlace": "",
+          "cutFlag": false,
+          "retailPrice": 18.00
+        },
+        {
+          "scenePicUrl": "https://yanxuan-item.nosdn.127.net/1d374eef36fb36f618cb0000b0c021eb.png",
+          "primarySkuPreSellPrice": 0,
+          "showPicUrl": "https://yanxuan-item.nosdn.127.net/0556af0833a45efc17691f5f8dcca1b2.png",
+          "itemTagList": [
+            
+          ],
+          "primarySkuPreSellStatus": 0,
+          "id": 3994860,
+          "sellVolume": 441,
+          "colorNum": 0,
+          "primaryPicUrl": "https://yanxuan-item.nosdn.127.net/0556af0833a45efc17691f5f8dcca1b2.png",
+          "promLogo": {
+            "width": 48,
+            "logoUrl": "http://yanxuan.nosdn.127.net/00a45bb1e4c2cca479dd9c939cb162e1.png",
+            "height": 48
+          },
+          "name": "网易云音乐氧气真无线蓝牙耳机MINI版",
+          "status": 2,
+          "goodCmtCount": 0,
+          "listPicUrl": "https://yanxuan-item.nosdn.127.net/3a006cd9b040399aba2987e5b9e762f5.png",
+          "tagId": 0,
+          "simpleDesc": "单边仅3.1g，零感佩戴；蓝牙5.0，高速传输；Type-C快充口，续航无忧；13mm大动圈，纯净音质；记忆配对，开盖秒连；主从切换，单/双耳随心用；IPX5防水，淋漓运动；语音助手，一键唤醒",
+          "primaryFlag": true,
+          "limitedFlag": 0,
+          "newItemFlag": false,
+          "pieceNum": 0,
+          "displaySkuId": 300248394,
+          "pieceUnitDesc": "件",
+          "discountFlag": false,
+          "productPlace": "",
+          "cutFlag": false,
+          "retailPrice": 139.00
+        }
+      ]
+}

@@ -112,9 +112,11 @@
         .wrap .main .select .handle .like {
           margin-right: 20px; }
           .wrap .main .select .handle .like:hover {
-            color: #B4A078; }
+            color: #B4A078;
+            cursor: pointer; }
         .wrap .main .select .handle .delete:hover {
-          color: #B4A078; }
+          color: #B4A078;
+          cursor: pointer; }
     .wrap .main .pay {
       margin-bottom: 20px;
       border: 1px solid #ddd;
@@ -136,12 +138,14 @@
         float: left;
         margin-left: 30px; }
         .wrap .main .pay .pay_del:hover {
-          color: #B4A078; }
+          color: #B4A078;
+          cursor: pointer; }
       .wrap .main .pay .pay_clear {
         float: left;
         margin-left: 30px; }
         .wrap .main .pay .pay_clear:hover {
-          color: #B4A078; }
+          color: #B4A078;
+          cursor: pointer; }
       .wrap .main .pay .pay_money {
         float: left;
         margin-left: 600px; }
