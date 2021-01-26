@@ -177,22 +177,8 @@ $(function () {
     console.log(cart_arr)
     //更新本地存储的数据
     localStorage.setItem('goods', JSON.stringify(cart_arr))
-    // alert('已加入购物车')
+    alert('已加入购物车')
     console.log(cart_id)
-    num_txt++
-
-
+    
   })
-
-
-
-
-
-
-
-
-
-
-
-
 })
