@@ -40,6 +40,13 @@
       .wrap .main .cart_title .t_05 {
         float: left;
         margin-left: 180px; }
+    .wrap .main .cart_null {
+      font-size: 18px;
+      height: 200px;
+      margin: 0 auto;
+      line-height: 200px;
+      margin-left: 300px;
+      color: #555; }
     .wrap .main .select {
       margin-bottom: 20px;
       padding: 12px 0;
@@ -63,7 +70,7 @@
         height: 98px;
         float: left;
         margin-left: 20px; }
-        .wrap .main .select .se_img image {
+        .wrap .main .select .se_img img {
           width: 100%;
           height: 100%; }
       .wrap .main .select h3 {
