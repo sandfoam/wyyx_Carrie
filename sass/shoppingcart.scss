@@ -48,7 +48,7 @@
             }
             .t_05{
                 float: left;
-                margin-left: 180px;
+                margin-left: 170px;
             }
         }
         .cart_null{
@@ -72,6 +72,7 @@
             font-size: 14px;
             color: #555;
             text-align: left;
+            position: relative;
             .ipt_s{
                 float: left;
                 height: 18px;
@@ -89,14 +90,25 @@
                     height: 100%;
                 }
             }
-            h3{
+            .h3box{
                 float: left;
+                width: 220px;
+                height: 40px;
+                margin-left: 10px;
+                
+
+                h3{
+                   line-height: 20px;
+                   margin-top: 40px;
+                }
             }
+            
             .price_01{
                 float: left;
                 margin-left: 114px;
                 color: red;
-                span{
+                width: 75px;
+                .totalPrice{
                     text-decoration: line-through;
                     color: #666;
                 }
@@ -144,20 +156,26 @@
         }
         .price_02{
             float: left;
-            margin-left: 60px;
+            margin-left: 65px;
             color: red;
         }
         .handle{
             float: left;
             margin-left: 130px;
             .like{
-                margin-right: 20px;
+                // margin-right: 20px;
+                position: absolute;
+                top: 10px;
+                left: 939px;
                 &:hover{
                     color: #B4A078;
                     cursor: pointer;
                 }
             }
             .delete{
+                position: absolute;
+                top: 10px;
+                left: 1030px;
                 &:hover{
                     color: #B4A078;
                     cursor: pointer;

@@ -39,7 +39,7 @@
         margin-left: 110px; }
       .wrap .main .cart_title .t_05 {
         float: left;
-        margin-left: 180px; }
+        margin-left: 170px; }
     .wrap .main .cart_null {
       font-size: 18px;
       height: 200px;
@@ -58,7 +58,8 @@
       line-height: 100px;
       font-size: 14px;
       color: #555;
-      text-align: left; }
+      text-align: left;
+      position: relative; }
       .wrap .main .select .ipt_s {
         float: left;
         height: 18px;
@@ -73,13 +74,20 @@
         .wrap .main .select .se_img img {
           width: 100%;
           height: 100%; }
-      .wrap .main .select h3 {
-        float: left; }
+      .wrap .main .select .h3box {
+        float: left;
+        width: 220px;
+        height: 40px;
+        margin-left: 10px; }
+        .wrap .main .select .h3box h3 {
+          line-height: 20px;
+          margin-top: 40px; }
       .wrap .main .select .price_01 {
         float: left;
         margin-left: 114px;
-        color: red; }
-        .wrap .main .select .price_01 span {
+        color: red;
+        width: 75px; }
+        .wrap .main .select .price_01 .totalPrice {
           text-decoration: line-through;
           color: #666; }
       .wrap .main .select .num_box {
@@ -111,19 +119,25 @@
           border: none; }
       .wrap .main .select .price_02 {
         float: left;
-        margin-left: 60px;
+        margin-left: 65px;
         color: red; }
       .wrap .main .select .handle {
         float: left;
         margin-left: 130px; }
         .wrap .main .select .handle .like {
-          margin-right: 20px; }
+          position: absolute;
+          top: 10px;
+          left: 939px; }
           .wrap .main .select .handle .like:hover {
             color: #B4A078;
             cursor: pointer; }
-        .wrap .main .select .handle .delete:hover {
-          color: #B4A078;
-          cursor: pointer; }
+        .wrap .main .select .handle .delete {
+          position: absolute;
+          top: 10px;
+          left: 1030px; }
+          .wrap .main .select .handle .delete:hover {
+            color: #B4A078;
+            cursor: pointer; }
     .wrap .main .pay {
       margin-bottom: 20px;
       border: 1px solid #ddd;

@@ -19,15 +19,15 @@ $(function () {
           console.log(item)
           console.log(ite)
           if (item.id === ite.id) {
-            var price_num=item.nowPrice*ite.num
-            chart_str += 
+            var price_num = item.nowPrice * ite.num
+            chart_str +=
               ` <div class="select">
             <input type="checkbox" class="ipt_s">
             <div class="se_img">
               <img src="${item.url}" alt="">
             </div>
-            <h3>${item.name}</h3>
-            <p class="price_01">¥${item.nowPrice} <span>¥${item.totalPrice}</span></p>
+            <div class='h3box'><h3>${item.name}</h3></div>
+            <p class="price_01"> <span class='nowPrice'>¥${item.nowPrice}</span> <span class='totalPrice'>¥${item.totalPrice}</span></p>
             <div class="num_box">
                 <button class="num_less">-</button>
                 <input class="num_n" type="text" name="" id="" value="${ite.num}" />
@@ -41,7 +41,9 @@ $(function () {
         </div>
           `
           }
+
         })
+
       })
       $('.select_box').html(chart_str)
       //点击收藏
@@ -49,6 +51,7 @@ $(function () {
         alert("你的眼光太棒了,好物已经收藏了")
         $(this).css('color', '#B4A078')
       })
+
       // 删除单条任务  这里是要从本地储存中删除的,不仅仅是删除dom结构
       $('.handle').on('click', '.delete', function () {
         var del_id = $(this).attr('delCode')
@@ -64,36 +67,51 @@ $(function () {
         localStorage.setItem('goods', JSON.stringify(cart_arr))
         if (cart_arr.length <= 0) {
           localStorage.removeItem('cart_arr')
-          var kongLi ='<li class="cart_null">购物车暂无数据,快去选购吧...</li>'
+          var kongLi = '<li class="cart_null">购物车暂无数据,快去选购吧...</li>'
           // $('<li>购物车暂无数据,快去选购吧...</li>').append('select_box')
           $('.select_box').html(kongLi)
-
         }
       });
       //点击增加数量
-      var num = parseInt($(".num_n").prop('value'));
       $('.num_box').on('click', '.num_more', function () {
+        var num = parseInt($(this).prev().prop('value'));
         num += 1
-        if (num > 25) {
-          num = 25
-          alert('超出最大购买量')
-        }
-        $('.num_n').prop('value', num)
+        $(this).prev().prop('value', num)
+        var price_good = $(this).parent().prev().children('.nowPrice').text().substr(1) // 32
+        // console.log(price_good)
+        var price_sum = price_good * num
+        // console.log(num)
+        // console.log(price_good)
+        $(this).parent().next().html('¥' + price_sum)
+        //更新本地存储
       })
       //点击减少数量
       $('.num_box').on('click', '.num_less', function () {
-        num--
+        var num = parseInt($(this).next().prop('value'));
+        num--;
+        console.log(num)
         if (num < 1) {
           num = 1
           alert('已经不能再少了...')
         }
-        $('.num_n').prop('value', num)
-      })
+        $(this).next().prop('value', num)
+        var price_good = $(this).parent().prev().children('.nowPrice').text().substr(1) // 32
+        var price_sum = price_good * num
+        console.log(price_sum)
+        $(this).parent().next().html('¥' + price_sum)
 
+      })
+      //全选框
+      var ips=$(' .ipt_s')
+      console.log(ips)
+      $(' .cart_title .all').on('click',function(){
+        console.log(111)
+        
+        
+      })
+      
 
     }
-
-
   })
 
 
@@ -105,73 +123,9 @@ $(function () {
 
 
 
-  // $(function(){
-  //     //先判断这里是是否有本地储存的购物车数据
-  //     if(localStorage.getItem())
-
-  //     $.ajax({
-  //         url:'./json/xianqging.json',
-  //         type:'get',
-  //         dataType:'json',
-  //         success:function(json){
-  //          //先打印下看看是不是拿到数据了   
-  //          console.log(json)
-  //         $.each(json,function(index,callback){
-
-  //         })
-  //         }
-  //     })
-  // }) 
-
-  //商品详情中会有code,这里要拿到商品详情中的code,
 
 
-  //要获取商品列表页的id来做购物车的数据传输
-  //通过url获取到下标为1的数组
-  // var code = location.href.split('?')[1].split("=")[1];
-  // // console.log(code);
-  // // console.log(location.href);
-  // //设置cookie  
-  // function setCookie(options) {
-  //   options.days = options.days || 0;
-  //   options.path = options.path || '';
-  //   if (options.days === 0) {
-  //     document.cookie = options.key + '=' + options.val + '; path=' + options.path;
-  //   } else {
-  //     var d = new Date();
-  //     d.setDate(d.getDate() + options.days);
-  //     document.cookie =
-  //       options.key +
-  //       '=' +
-  //       options.val +
-  //       '; expires=' +
-  //       d +
-  //       '; path=' +
-  //       options.path;
-  //   }
-  // }
-  // //获取cookie
-
-  // function getCookie(key) {
-  //   var arr = document.cookie.split('; ')
-  //   for (var i = 0, len = arr.length; i < len; i++) {
-  //     var arr2 = arr[i].split('=')
-  //     if (arr2[0] === key) {
-  //       return arr2[1]
-  //     }
-  //   }
-  //   return null
-  // }
-
-  // // 删除cookie（cookie过期浏览器自动删除）
-  // function removeCookie(key) {
-  //   setCookie({
-  //     key: key,
-  //     val: '123',
-  //     days: -2
-  //   })
-  // }
-
+  
   // //放大镜获取数据
   // $.ajax({
   //   //请求到详情页的数据
